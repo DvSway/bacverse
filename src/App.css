@@ -1,0 +1,609 @@
+/* =========================================
+   RESETEO BÁSICO Y COLORES (NUEVO TONO LILA)
+========================================= */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+:root {
+  --color-fondo: #f4f6f8;
+  --color-primario: #a086d2; /* TU NUEVO COLOR */
+  --color-tarjeta: #ffffff;
+  --texto-oscuro: #1e293b;
+  --texto-claro: #64748b;
+}
+
+body {
+  background-color: var(--color-fondo);
+  color: var(--texto-oscuro);
+  font-family: 'Atkinson Hyperlegible','Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.laboratorio-app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* =========================================
+   MENÚ PRINCIPAL
+========================================= */
+.menu-principal {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.menu-principal button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: 2px solid var(--color-primario);
+  background: transparent;
+  color: var(--color-primario);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu-principal button:hover {
+  background: #f3f0fa; /* Un lila muy clarito para el hover */
+}
+
+.menu-principal button.btn-activo {
+  background: var(--color-primario);
+  color: white;
+}
+
+/* =========================================
+   CONTROLES: FILTROS Y BÚSQUEDA
+========================================= */
+.controles-busqueda {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; 
+}
+
+/* La barra de búsqueda normal */
+.barra-busqueda {
+  flex-grow: 1; 
+  padding: 1rem 1.5rem;
+  font-size: 1.1rem;
+  border: 2px solid #cbd5e1;
+  border-radius: 30px;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Sombra lila cuando le das clic a la barra */
+.barra-busqueda:focus {
+  border-color: var(--color-primario);
+  box-shadow: 0 0 0 3px rgba(160, 134, 210, 0.3); 
+}
+
+/* El botón de las 3 rayitas */
+.btn-hamburguesa {
+  background-color: var(--color-primario);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+
+.btn-hamburguesa:hover {
+  background-color: #8b6bc7; /* Un lila un poco más fuerte para cuando pasas el mouse */
+}
+
+/* El menú que se despliega */
+.menu-flotante {
+  position: absolute;
+  top: 60px; 
+  right: 0; 
+  width: 100%;
+  max-width: 350px;
+  max-height: 400px;
+  overflow-y: auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+/* LOS BOTONES DE TEXTO ADENTRO DEL MENÚ */
+.menu-flotante button {
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  color: var(--texto-oscuro);
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.2s;
+  font-family: 'Atkinson Hyperlegible','Segoe UI','Georgia', serif; 
+}
+
+.menu-flotante button:hover {
+  background-color: #f1f5f9;
+}
+
+.menu-flotante button.filtro-activo {
+  background-color: #f3f0fa; 
+  color: var(--color-primario);
+  font-weight: bold;
+}
+
+.mensaje-vacio {
+  text-align: center;
+  grid-column: 1 / -1;
+  color: var(--texto-claro);
+  font-size: 1.2rem;
+  padding: 3rem;
+}
+
+/* =========================================
+   TARJETAS PRINCIPALES (PORTADAS)
+========================================= */
+.grid-tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.tarjeta {
+  background: var(--color-tarjeta);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjeta:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.tarjeta-imagen-placeholder {
+  height: 200px;
+  background-color: #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--texto-claro);
+  font-weight: bold;
+}
+
+.img-miniatura {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+  object-position: center; 
+  background-color: #e2e8f0; 
+}
+
+.tarjeta-contenido {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjeta-contenido h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+  color: var(--texto-oscuro);
+}
+
+.tarjeta-contenido p {
+  color: var(--texto-claro);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.btn-detalles {
+  width: 100%;
+  padding: 0.75rem;
+  background: #f1f5f9;
+  border: none;
+  color: var(--color-primario);
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-detalles:hover {
+  background: #e2e8f0;
+}
+
+/* =========================================
+   VENTANA EMERGENTE (MODAL Y GALERÍA)
+========================================= */
+.modal-fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem;
+  box-sizing: border-box; /* Asegura que el padding no desborde la pantalla */
+}
+
+.modal-contenido {
+  background-color: white;
+  width: 100%;
+  max-width: 750px;
+  max-height: 90vh;
+  border-radius: 12px;
+  padding: 2rem;
+  position: relative;
+  overflow-y: auto;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  animation: deslizarArriba 0.3s ease-out forwards;
+}
+
+@keyframes deslizarArriba {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.btn-cerrar {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: #94a3b8;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.btn-cerrar:hover {
+  color: #ef4444;
+}
+
+.modal-info h2 {
+  color: var(--color-primario);
+  margin-top: 0;
+  margin-right: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #0054c2;
+}
+
+.modal-info p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+.modal-info strong {
+  color: var(--texto-oscuro);
+}
+
+.modal-info h3 {
+  margin-top: 1.5rem;
+  color: var(--texto-oscuro);
+}
+
+.modal-info ul {
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+
+.modal-info li {
+  margin-bottom: 0.5rem;
+}
+
+/* GALERÍA MOVIDA HASTA ABAJO CON LÍNEA DIVISORIA ARRIBA */
+.modal-galeria {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 1.5rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 2px dashed #e2e8f0; 
+}
+
+.galeria-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 180px;
+}
+
+.galeria-item img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain; 
+  object-position: center; 
+  background-color: #e2e8f0; 
+  border-radius: 8px;
+  border: 2px solid #cbd5e1;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.galeria-etiqueta {
+  margin-top: 0.8rem;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: var(--color-primario);
+  text-align: center;
+}
+/* =========================================
+   PANTALLA: IDENTIFICADOR PRESUNTIVO
+========================================= */
+.identificador-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.05);
+}
+
+.tabs-identificador {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 1rem;
+}
+
+.tabs-identificador button {
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  background: transparent;
+  border: none;
+  border-bottom: 4px solid transparent;
+  color: var(--texto-claro);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.tabs-identificador button.tab-activa {
+  color: var(--color-primario);
+  border-bottom: 4px solid var(--color-primario);
+}
+
+.panel-identificador {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.panel-identificador-solo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .panel-identificador {
+    grid-template-columns: 1fr 1fr; /* Mitad y mitad en pantallas grandes */
+  }
+}
+
+.formulario-pruebas { 
+  background: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.grupo-input {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.grupo-input label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--texto-oscuro);
+}
+
+.grupo-input select {
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  font-size: 1rem;
+  outline: none;
+}
+
+.grupo-input select:focus {
+  border-color: var(--color-primario);
+}
+
+.resultados-bacterias {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 1rem;
+}
+
+.tarjeta-bacteria {
+  border: 2px solid var(--color-primario);
+  border-radius: 8px;
+  padding: 1rem;
+  background: white;
+}
+
+.tarjeta-bacteria h3 {
+  margin-top: 0;
+  color: var(--color-primario);
+  border-bottom: 1px dashed #cbd5e1;
+  padding-bottom: 0.5rem;
+  font-style: italic; /* ¡Esta es la magia! */
+}
+
+.grid-perfil {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.badge-prueba {
+  background: #f3f0fa;
+  padding: 0.4rem;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+  color: var(--texto-oscuro);
+}
+
+.badge-positivo { color: #16a34a; }
+.badge-negativo { color: #dc2626; }
+
+/* ESTILOS DE LOS ACORDEONES DE PRUEBAS */
+.acordeon-categoria {
+  background: white;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+  overflow: hidden;
+}
+
+.acordeon-categoria summary {
+  padding: 1rem;
+  font-weight: bold;
+  color: var(--color-primario);
+  background-color: #f8fafc;
+  cursor: pointer;
+  list-style: none; /* Quita la flechita fea por defecto */
+  display: flex;
+  justify-content: space-between;
+}
+
+.acordeon-categoria summary::-webkit-details-marker {
+  display: none;
+}
+
+.acordeon-categoria summary::after {
+  content: '▼';
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+.acordeon-categoria[open] summary::after {
+  content: '▲';
+}
+
+.contenido-acordeon {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Pone dos dropdowns por fila */
+  gap: 1rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.btn-limpiar {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.btn-limpiar:hover {
+  background-color: #dc2626;
+}
+
+/* =========================================
+   NUEVO: RESPONSIVE PARA CELULARES (MÓVIL)
+========================================= */
+@media (max-width: 768px) {
+  /* 1. Quitamos los márgenes gigantes laterales */
+  .laboratorio-app {
+    padding: 1rem;
+  }
+
+  /* 2. El menú principal se apila para que los botones no se aplasten */
+  .menu-principal {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  /* 3. El buscador y el botón de hamburguesa se ajustan a lo ancho de la pantalla */
+  .controles-busqueda {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .barra-busqueda {
+    width: 100%;
+    flex: none; /* Evita que crezca raro */
+  }
+
+  /* 4. Las tarjetas principales (portadas) se aseguran de usar todo el espacio */
+  .grid-tarjetas {
+    grid-template-columns: 1fr;
+  }
+
+  /* 5. El Modal usa toda la pantalla pero respeta un pequeño borde */
+  .modal-contenido {
+    width: 95%;
+    padding: 1.5rem 1rem;
+  }
+
+  /* 6. Los identificadores y pestañas se acomodan verticalmente */
+  .identificador-container {
+    padding: 1rem;
+  }
+  .tabs-identificador {
+    flex-direction: column;
+  }
+  .tabs-identificador button {
+    width: 100%;
+    padding: 0.8rem;
+  }
+
+  /* 7. LA MAGIA PARA LOS ACORDEONES: Fuerza a que sea 1 por fila en celular */
+  .contenido-acordeon {
+    grid-template-columns: 1fr;
+  }
+}
