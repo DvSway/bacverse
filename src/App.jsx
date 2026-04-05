@@ -280,7 +280,7 @@ function App() {
                       {Object.entries(bac).map(([clave, valor]) => {
                         if (clave === 'nombre') return null;
                         const claseColor = valor.includes('+') || valor === 'Sensible' || valor === 'A/A' ? 'badge-positivo' : valor.includes('-') || valor === 'Resistente' || valor === 'K/K' ? 'badge-negativo' : '';
-                        return <div key={clave} className="badge-prueba"><strong>{clave.replace(/_/g, ' ').toUpperCase()}:</strong> <span className={claseColor}>{valor}</span></div>
+                        return <div key={clave} className="badge-prueba"><strong>{clave.replace(/_/g, ' ').toUpperCase().replace('NACL','NaCl')}:</strong> <span className={claseColor}>{valor}</span></div>
                       })}
                     </div>
                   </div>
