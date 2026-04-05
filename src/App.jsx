@@ -254,7 +254,7 @@ function App() {
                       <div className="grid-perfil">
                         {Object.entries(bac).map(([clave, valor]) => {
                           if (clave === 'nombre') return null;
-                          const claseColor = valor.includes('+') || valor === 'Sensible' || valor === 'A/A' ? 'badge-positivo' : valor.includes('-') || valor === 'Resistente' || valor === 'K/K' ? 'badge-negativo' : '';
+                          const claseColor = valor.includes('/') ? '' : (valor.includes('+') || valor === 'Sensible') ? 'badge-positivo' : (valor.includes('-') || valor === 'Resistente') ? 'badge-negativo' : '';
                           return <div key={clave} className="badge-prueba"><strong>{clave.replace(/_/g, ' ').toUpperCase().replace('NACL','NaCl')}:</strong> <span className={claseColor}>{valor}</span></div>
                         })}
                       </div>
@@ -279,7 +279,7 @@ function App() {
                       {/* AQUÍ OCURRE LA MAGIA: Solo muestra las pruebas que están en el JSON */}
                       {Object.entries(bac).map(([clave, valor]) => {
                         if (clave === 'nombre') return null;
-                        const claseColor = valor.includes('+') || valor === 'Sensible' || valor === 'A/A' ? 'badge-positivo' : valor.includes('-') || valor === 'Resistente' || valor === 'K/K' ? 'badge-negativo' : '';
+                        const claseColor = valor.includes('/') ? '' : (valor.includes('+') || valor === 'Sensible') ? 'badge-positivo' : (valor.includes('-') || valor === 'Resistente') ? 'badge-negativo' : '';
                         return <div key={clave} className="badge-prueba"><strong>{clave.replace(/_/g, ' ').toUpperCase().replace('NACL','NaCl')}:</strong> <span className={claseColor}>{valor}</span></div>
                       })}
                     </div>
