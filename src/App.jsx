@@ -268,7 +268,7 @@ function App() {
           {/* MODO 2: METES BACTERIA */}
           {modoIdentificador === 'por_bacteria' && (
             <div className="panel-identificador" style={{ gridTemplateColumns: '1fr' }}>
-              <input type="text" placeholder="Escribe el nombre de la bacteria (ej. Streptococcus)..."
+              <input type="text" placeholder="Escribe el nombre de la bacteria (e.g. Streptococcus)..."
                 value={bacteriaBuscada} onChange={(e) => setBacteriaBuscada(e.target.value)} className="barra-busqueda" style={{ marginBottom: '2rem' }} />
               
               <div className="resultados-bacterias" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))' }}>
