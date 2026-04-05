@@ -70,7 +70,10 @@ const categoriasPruebas = {
     { id: 'lecitinasa', label: 'Lecitinasa (Yema de Huevo)', opciones: ['+', '-'] },
     { id: 'fucsina_20ug', label: 'Fucsina Básica 20 µg', opciones: ['+', '-'] },
     { id: 'tionina_20ug', label: 'Tionina 20 µg', opciones: ['+', '-'] },
-    { id: 'tionina_40ug', label: 'Tionina 40 µg', opciones: ['+', '-'] }
+    { id: 'tionina_40ug', label: 'Tionina 40 µg', opciones: ['+', '-'] },
+    { id: 'nacl_0', label: 'Desarrollo NaCl 0%', opciones: ['+', '-'] },
+    { id: 'nacl_6', label: 'Desarrollo NaCl 6%', opciones: ['+', '-'] },
+    { id: 'nacl_8', label: 'Desarrollo NaCl 8%', opciones: ['+', '-'] }
   ]
 };
 
@@ -252,7 +255,7 @@ function App() {
                         {Object.entries(bac).map(([clave, valor]) => {
                           if (clave === 'nombre') return null;
                           const claseColor = valor.includes('+') || valor === 'Sensible' || valor === 'A/A' ? 'badge-positivo' : valor.includes('-') || valor === 'Resistente' || valor === 'K/K' ? 'badge-negativo' : '';
-                          return <div key={clave} className="badge-prueba"><strong>{clave.replace(/_/g, ' ').toUpperCase()}:</strong> <span className={claseColor}>{valor}</span></div>
+                          return <div key={clave} className="badge-prueba"><strong>{clave.replace(/_/g, ' ').toUpperCase().replace('NACL','NaCl')}:</strong> <span className={claseColor}>{valor}</span></div>
                         })}
                       </div>
                     </div>
