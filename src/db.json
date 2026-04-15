@@ -252,8 +252,8 @@
       "condiciones_crecimiento": "35-37°C en aerobiosis por 18 a 24 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
-        "Fermentadores fuertes (e.g. </em>E. coli</em>): Colonias oscuras con un característico brillo metálico verde.",
-        "Fermentadores lentos/débiles (e.g. </em>Klebsiella</em>): Colonias grandes, mucosas, de centro oscuro rosado/violáceo sin brillo metálico.",
+        "Fermentadores fuertes (e.g. <em>E. coli</em>): Colonias oscuras con un característico brillo metálico verde.",
+        "Fermentadores lentos/débiles (e.g. <em>Klebsiella</em>): Colonias grandes, mucosas, de centro oscuro rosado/violáceo sin brillo metálico.",
         "No fermentadores: Colonias incoloras, translúcidas o color ámbar."
       ],
       "imagenes": {
@@ -285,8 +285,8 @@
       "condiciones_crecimiento": "35-37°C en aerobiosis por 18 a 24 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
-        "Crecimiento en 0%: Bacterias no dependientes de sal (e.g. Vibrio cholerae).",
-        "Crecimiento exclusivo en 6% u 8%: Bacterias halófilas que requieren alta presión osmótica (e.g. Vibrio parahaemolyticus)."
+        "Crecimiento en 0%: Bacterias no dependientes de sal (e.g. <em> Vibrio cholerae </em>).",
+        "Crecimiento exclusivo en 6% u 8%: Bacterias halófilas que requieren alta presión osmótica (e.g. <em> Vibrio parahaemolyticus </em>)."
       ],
       "imagenes": {
         "sin_sembrar": "/fotos/gn_base.png",
@@ -683,7 +683,7 @@
     {
       "nombre": "Movilidad (25°C Y 37°C)",
       "composicion": "Medio semisólido (agar al 0.4% o menor), peptonas, NaCl. (Algunos incluyen cloruro de trifeniltetrazolio - TTC para visualizar la movilidad mediante la reducción de este compuesto hacia formazán, de color rojo, en todo el medio).",
-      "fundamento": "Determina la presencia de flagelos. El medio semisólido permite el desplazamiento de bacterias móviles lejos de la línea de inoculación. Las dos temperaturas diferencian especies móviles a 25°C pero inmóviles a 37°C (e.g. Listeria monocytogenes, Yersinia enterocolitica).",
+      "fundamento": "Determina la presencia de flagelos. El medio semisólido permite el desplazamiento de bacterias móviles lejos de la línea de inoculación. Las dos temperaturas diferencian especies móviles a 25°C pero inmóviles a 37°C (e.g. <em>Listeria monocytogenes</em>, <em>Yersinia enterocolitica</em>).",
       "condiciones_crecimiento": "25°C y 35-37°C aerobiosis, 18-24 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
@@ -921,7 +921,7 @@
       "reactivos_metodologia": "Siembra por picadura y estría. Tubo cerrado con tapa floja.",
       "interpretacion": [
         "Pico púrpura / Fondo púrpura (K/K): Descarboxilación (+).",
-        "Pico rojo / Fondo amarillo (R/A): Desaminación (+),  (e.g. Proteus, Providencia, Morganella).",
+        "Pico rojo / Fondo amarillo (R/A): Desaminación (+),  (e.g. <em>Proteus</em>, <em>Providencia</em>, <em>Morganella</em>).",
         "Pico púrpura / Fondo amarillo (K/A):Negativo para ambas",
         "Ennegrecimiento: Producción de H2S."
       ],
@@ -962,7 +962,7 @@
     },
     {
       "nombre": "Prueba de Niacina y Fotocromogenicidad",
-      "composicion": "Uso de medios como Löwenstein-Jensen o Middlebrook).",
+      "composicion": "Uso de medios como Löwenstein-Jensen o Middlebrook.",
       "fundamento": "Niacina: Todas las micobacterias sintetizan niacina, pero <em>M. tuberculosis</em> carece de la enzima para convertirla en nucleótidos, acumulándola en el medio. Fotocromogenicidad: Evalúa si las micobacterias atípicas producen pigmento carotenoide en la oscuridad o tras exposición a la luz (foto o escotocromógenas).",
       "condiciones_crecimiento": "Medio de Löwenstein-Jensen o Middlebrook, 35-37 °C, hasta 6-8 semanas. Para luz: Exponer cultivo joven a luz intensa 1-2 horas y reincubar.",
       "reactivos_metodologia": "Para Niacina se añade 1 mL de Agua Destilada al medio, se deja reposar de forma horizontal por 1 hora. Posteriormente se drena el líquido a un tubo limpio.",
