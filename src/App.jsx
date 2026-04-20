@@ -6,7 +6,7 @@ import './App.css'
 const categoriasPruebas = {
   "Morfología y Pruebas Rápidas": [
     { id: 'gram', label: 'Tinción de Gram', opciones: ['+', '-'] },
-    { id: 'forma', label: 'Morfología', opciones: ['Cocos', 'Bacilos', 'Bacilos curvados', 'Cocobacilos', 'Diplococos'] },
+    { id: 'forma', label: 'Morfología', opciones: ['Cocos', 'Bacilos'] },
     { id: 'catalasa', label: 'Catalasa', opciones: ['+', '-'] },
     { id: 'oxidasa', label: 'Oxidasa', opciones: ['+', '-'] },
     { id: 'coagulasa', label: 'Coagulasa', opciones: ['+', '-'] },
