@@ -330,16 +330,18 @@ function App() {
                 {Object.entries(itemSeleccionado.imagenes).map(([tituloImagen, url], idx) => (
                   <div key={idx} style={{ flex: '1 1 200px', maxWidth: '250px', textAlign: 'center' }}>
                     <img src={url} alt={tituloImagen} style={{ width: '100%', height: '200px', objectFit: 'contain', borderRadius: '8px', border: '1px solid var(--borde)', boxShadow: '0 4px 6px rgba(0,0,0,0.3)' }} />
-                    <p style={{ 
-                      marginTop: '0.8rem', 
-                      fontSize: '0.9rem', 
-                      fontWeight: 'bold', 
-                      color: '#a086d2', 
-                      textTransform: 'uppercase',
-                      letterSpacing: '1px'
-                    }}>
-                      {tituloImagen.replace(/_/g, ' ')}
-                    </p>
+                   {/* ETIQUETA DE LA IMAGEN CON DECISIÓN INTELIGENTE */}
+                    <p 
+                      style={{ 
+                        marginTop: '0.8rem', 
+                        fontSize: '0.9rem', 
+                        fontWeight: 'bold', 
+                        color: '#a086d2', 
+                        textTransform: tituloImagen.includes('<') ? 'none' : 'uppercase', /* ⬅️ LA MAGIA CONDICIONAL */
+                        letterSpacing: '1px'
+                      }} 
+                      dangerouslySetInnerHTML={{ __html: tituloImagen.replace(/_/g, ' ') }} 
+                    />
                   </div>
                 ))}
               </div>

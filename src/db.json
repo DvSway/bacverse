@@ -122,6 +122,7 @@
       "imagenes": {
         "sin_sembrar": "/fotos/macconkey_base.png",
         "lactosa_positiva": "/fotos/macconkey_positivo.png",
+        "lactosa_positiva_mucoide":"/fotos/macconkey_positivo_klebsiella.png",
         "lactosa_negativa": "/fotos/macconkey_negativo.png"
       }
     },
@@ -332,12 +333,12 @@
         "Negativo: El medio se torna opaco/turbio alrededor de la colonia (el DNA intacto precipita al contacto con el HCl)."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/dnase_basea.png",
-        "sin_inocular": "/fotos/dnase_basev.png",
-        "positiva_halo_rosa": "/fotos/dnase_positivoa.png",
-        "positiva_halo_claro": "/fotos/dnase_positivoav.png",
-        "negativa_sin_halo_rosa": "/fotos/dnase_negativoa.png",
-        "negativa_sin_halo claro": "/fotos/dnase_negativov.png"
+        "sin_inocular_Azul_de_Toluidina": "/fotos/dnase_basea.png",
+        "sin_inocular_Verde_de_Metilo": "/fotos/dnase_basev.png",
+        "positiva_Azul_de_Toluidina": "/fotos/dnase_positivoa.png",
+        "positiva_Verde_de_Metilo": "/fotos/dnase_positivov.png",
+        "negativa y positiva_Azul_de_Toluidina": "/fotos/dnase_negativoa.png",
+        "negativa_Verde_de_Metilo": "/fotos/dnase_negativov.png"
       }
     },
     {
@@ -643,9 +644,10 @@
         "Negativo: Permanece rojo o cambia a fucsia (alcalino por uso de peptonas)."
       ],
       "imagenes": {
+        "ejemplo":"/fotos/rojodefenol_ejemplo.png",
         "sin_inocular": "/fotos/rojodefenol_base.png",
         "positivo": "/fotos/rojodefenol_positivo.png",
-        "negativo": "/fotos/rojodefenol_negativo.png"
+        "negativo": "/fotos/rojodefenol_negativo.png"        
       }
     },
     {
@@ -677,7 +679,8 @@
       "imagenes": {
         "sin_inocular": "/fotos/cta_base.png",
         "positivo": "/fotos/cta_positivo.png",
-        "negativo": "/fotos/cta_negativo.png"
+        "negativo": "/fotos/cta_negativo.png",
+        "ejemplo":"/fotos/cta_ejemplo.png"
       }
     },
     {
@@ -707,6 +710,7 @@
         "Negativo: El plasma permanece líquido o suspensión homogénea."
       ],
       "imagenes": {
+        "ejemplo":"/fotos/coagulasa_ejemplo.png",
         "positiva": "/fotos/coagulasa_positivo.png",
         "negativa": "/fotos/coagulasa_negativo.png"
       }
@@ -843,7 +847,8 @@
       ],
       "imagenes": {
         "sin_inocular": "/fotos/esculina_base.png",
-        "positivo": "/fotos/esculina_positivo.png"        
+        "positivo": "/fotos/esculina_positivo.png",
+        "Positivo_en_tubo":"/fotos/esculina_positivo_tubo.png"        
       }
     },
     {
@@ -859,7 +864,8 @@
         "Negativo: Ausencia de sinergia hemolítica."
       ],
       "imagenes": {
-        "<em>S. agalactiae</em>": "/fotos/camp_agalactiae.png",
+        "<em>S. agalactiae</em>": "/fotos/camp_sagalactiae.png",
+        "<em>S. agalactiae</em>_POSITIVO Y NEGATIVO": "/fotos/camp_agalactiae.png",        
         "<em>L. ivanovii</em>": "/fotos/camp_ivanovii.png",
         "<em>L. monocytogenes</em>": "/fotos/camp_monocytogenes.png"
       }
@@ -875,8 +881,9 @@
         "Negativo: Incoloro/ligeramente amarillo."
       ],
       "imagenes": {
+        "prueba_microtubo":"/fotos/hipurato_microtubo.png",
         "positivo": "/fotos/hipurato_positivo.png",
-        "negativo": "/fotos/hipurato_negativo.png"
+        "negativo": "/fotos/hipurato_negativo.png"        
       }
     },
     {
@@ -893,6 +900,7 @@
         "Burbujas o rotura del agar: Producción de gas."
       ],
       "imagenes": {
+        "ejemplo":"fotos/tsi_ejemplo.png",
         "resultados posibles": "/fotos/tsi.png"
       }
     },
@@ -910,7 +918,8 @@
         "Burbujas o rotura del agar: Producción de gas."
       ],
       "imagenes": {
-        "resultados posibles": "/fotos/kia.png"
+        "ejemplo":"fotos/kia_ejemplo.png",
+        "resultados posibles": "/fotos/kia.png"                        
       }
     },
     {
@@ -922,7 +931,7 @@
       "interpretacion": [
         "Pico púrpura / Fondo púrpura (K/K): Descarboxilación (+).",
         "Pico rojo / Fondo amarillo (R/A): Desaminación (+),  (e.g. <em>Proteus</em>, <em>Providencia</em>, <em>Morganella</em>).",
-        "Pico púrpura / Fondo amarillo (K/A):Negativo para ambas",
+        "Pico púrpura / Fondo amarillo (K/A): Negativo para ambas",
         "Ennegrecimiento: Producción de H2S."
       ],
       "imagenes": {
@@ -956,8 +965,9 @@
         "Negativo: Se vuelve rojo SOLAMENTE después de añadir zinc (el Zinc redujo el nitrato residual)."
       ],
       "imagenes": {
+        "ejemplo":"/fotos/nitratos_ejemplo.png",
         "Sin Campana": "/fotos/nitratossdurham.png",
-        "Con Campana": "/fotos/nitratosdurham.png"
+        "Con Campana": "/fotos/nitratosdurham.png"        
       }
     },
     {
@@ -986,8 +996,9 @@
         "Indol (+): Anillo rojo tras añadir reactivo de Kovacs."
       ],
       "imagenes": {
+        "ejemplo":"/fotos/mio_ejemplo.png",
         "Indol, Movilidad, Ornitina Positivos": "/fotos/mio_positivo.png",
-        "Indol y Movilidad Negativos, Ornitina Positivo": "/fotos/mio_negativo.png"
+        "Indol y Movilidad Negativos, Ornitina Positivo": "/fotos/mio_negativo.png"        
       }
     },
     {
@@ -1002,7 +1013,8 @@
       ],
       "imagenes": {
         "Positivo": "/fotos/citrato_positivo.png",
-        "negativo": "/fotos/citrato_negativo.png"
+        "negativo": "/fotos/citrato_negativo.png",
+        "ejemplo":"/fotos/citrato_ejemplo.png"
       }
     },
     {
@@ -1031,7 +1043,8 @@
         "Negativo: Color amarillo (No descarboxiló)."
       ],
       "imagenes": {
-        "Sin Inocular, Positivo y Negativo": "/fotos/moeller.png"
+        "Sin Inocular, Positivo y Negativo": "/fotos/moeller.png",
+        "ejemplo":"/fotos/moeller_ejemplo.png"
       }
     },
     {
@@ -1060,7 +1073,8 @@
       ],
       "imagenes": {
         "sensible": "/fotos/vibriostatico_sensible.png",
-        "resistente": "/fotos/vibriostatico_resistente.png"
+        "resistente": "/fotos/vibriostatico_resistente.png",
+        "ejemplo":"/fotos/vibriostatico_ejemplo.png"
       }
     },
     {
@@ -1097,7 +1111,7 @@
       }
     },
     {
-      "nombre": "Requerimiento de Factores X y V (Satelitismo CON S. aureus)",
+      "nombre": "Requerimiento de Factores X y V (Satelitismo con S. aureus)",
       "composicion": "Agar Tripticasa Soya (TSA) o Gelosa Sanre y Cepa de S. aureus.",
       "fundamento": "Especies como <em>Haemophilus influenzae</em> requieren factor X (hemina) y V (NAD) para crecer. El agar sangre de carnero provee factor X, pero las NADasas destruyen el factor V libre. <em>S. aureus</em> produce NAD como subproducto, proveyendo el factor V necesario a su alrededor (satelitismo).",
       "condiciones_crecimiento": "35-37°C, 5% CO2, 18-24 horas. ",
@@ -1108,7 +1122,8 @@
       ],
       "imagenes": {
         "Gelosa Sangre": "/fotos/satelitismo_sangre.png",
-        "TSA": "/fotos/satelitismo_tsa.png"
+        "TSA": "/fotos/satelitismo_tsa_disco.png",
+        "TSA sin disco":"/fotos/satelitismo_tsa.png"
       }
     },
     {
@@ -1122,7 +1137,8 @@
         "Negativo: Sin fluorescencia roja (requiere factor X exógeno)."
       ],
       "imagenes": {
-        "Positivo y negativo": "/fotos/porfirina.png"
+        "Positivo y negativo": "/fotos/porfirina.png",
+        "Positivo y negativo 2": "/fotos/porfirina_alterno.png"
       }
     },
     {
@@ -1136,8 +1152,9 @@
         "Negativo o débil: Burbujeo lento o nulo."
       ],
       "imagenes": {
+        "ejemplo en tubo":"/fotos/superoxol_ejemplo.png",
         "positivo": "/fotos/superoxol_positivo.png",
-        "negativo": "/fotos/superoxol_negativo.png"
+        "negativo": "/fotos/superoxol_negativo.png"        
       }
     },
     {
@@ -1179,8 +1196,9 @@
         "Se evalúa crecimiento (resistente) o falta de crecimiento (sensible) y se compara con tablas estándar (e.g. <em>B. abortus</em> no crece en tionina pero sí en fucsina; <em>B. suis</em> crece en tionina pero no en fucsina)."
       ],
       "imagenes": {
+        "tionina_positivo":"/fotos/tionina_ejemplo.png",
         "sin_inocular_fucsina": "/fotos/brucella_fucsina.png",
-        "sin_inocular_tionina": "/fotos/brucella_tionina.png"
+        "sin_inocular_tionina": "/fotos/brucella_tionina.png"        
       }
     }
   ],
