@@ -1197,6 +1197,7 @@
       ],
       "imagenes": {
         "tionina_positivo":"/fotos/tionina_ejemplo.png",
+        "fucsina_positivo":"/fotos/fucsina_ejemplo.png",
         "sin_inocular_fucsina": "/fotos/brucella_fucsina.png",
         "sin_inocular_tionina": "/fotos/brucella_tionina.png"        
       }
