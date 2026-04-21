@@ -216,7 +216,7 @@
     {
       "nombre": "Gelosa Salmonella - Shigella (Agar SS)",
       "composicion": "Extracto de carne, peptona, lactosa, sales biliares, citrato de sodio, tiosulfato de sodio, citrato férrico, rojo neutro, verde brillante y agar.",
-      "fundamento": "Selectivo y diferencial para el aislamiento de especies patógenas entéricas. Las sales biliares, el citrato y el verde brillante inhiben fuertemente a grampositivos y coliformes. La lactosa detecta utilizadores (rojo neutro) y el tiosulfato con el citrato férrico detecta la producción de ácido sulfhídrico (H2S).",
+      "fundamento": "Selectivo y diferencial para el aislamiento de especies patógenas entéricas. Las sales biliares, el citrato y el verde brillante inhiben fuertemente a gram positivos y coliformes. La lactosa detecta utilizadores (rojo neutro) y el tiosulfato con el citrato férrico detecta la producción de ácido sulfhídrico (H2S).",
       "condiciones_crecimiento": "35-37°C en aerobiosis por 18 a 24 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
@@ -234,11 +234,11 @@
     {
       "nombre": "Gelosa Verde Brillante (Agar Verde Brillante)",
       "composicion": "Peptonas, extracto de levadura, lactosa, sacarosa, cloruro de sodio, rojo fenol, verde brillante y agar.",
-      "fundamento": "Medio altamente selectivo para el aislamiento de <em>Salmonella</em> (excepto S. Typhi). El verde brillante inhibe a la microbiota grampositiva y a la mayoría de los bacilos gramnegativos, incluidos muchos miembros de la microbiota fecal normal. La lactosa, sacarosa y el rojo fenol sirven como sistema diferencial.",
+      "fundamento": "Medio altamente selectivo para el aislamiento de <em>Salmonella</em> (excepto serovariedad Typhi). El verde brillante inhibe a la microbiota gram positiva y a la mayoría de los bacilos gramnegativos, incluidos muchos miembros de la microbiota fecal normal. La lactosa, sacarosa y el rojo fenol sirven como sistema diferencial.",
       "condiciones_crecimiento": "35-37°C en aerobiosis por 18 a 24 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
-        "Salmonella spp. (no que utilizan): Colonias opacas de color blanco a rojo rosado, rodeadas de un halo rojo brillante en el medio.",
+        "<em>Salmonella</em> spp. (no que utilizan): Colonias opacas de color blanco a rojo rosado, rodeadas de un halo rojo brillante en el medio.",
         "Organismos fermentadores (e.g. <em>E. coli</em>, <em>Klebsiella</em>): Colonias amarillo-verdosas rodeadas de un halo amarillo."
       ],
       "imagenes": {
@@ -530,12 +530,12 @@
     {
       "nombre": "Gelosa Sulfito de Bismuto (Agar Sulfito de Bismuto)",
       "composicion": "Peptona, extracto de carne, dextrosa, sulfato ferroso, indicador sulfito de bismuto, fosfato disódico, verde brillante y agar.",
-      "fundamento": "Medio altamente selectivo y diferencial modificado por Wilson y Blair para aislar Salmonella enterica serovar Typhi. El sulfito de bismuto y el verde brillante inhiben drásticamente el crecimiento de grampositivos y miembros de la microbiota entérica (incluyendo otros coliformes). S. Typhi reduce el sulfito a sulfuro de hidrógeno, el cual reacciona con el hierro dando un precipitado metálico negro.",
+      "fundamento": "Medio altamente selectivo y diferencial modificado por Wilson y Blair para aislar <em>Salmonella enterica</em> serovar Typhi. El sulfito de bismuto y el verde brillante inhiben drásticamente el crecimiento de grampositivos y miembros de la microbiota entérica (incluyendo otros coliformes). <em>Salmonella</em> Typhi reduce el sulfito a sulfuro de hidrógeno, el cual reacciona con el hierro dando un precipitado metálico negro.",
       "condiciones_crecimiento": "35-37°C en aerobiosis durante 48 horas (es crucial este tiempo por el alto nivel inhibitorio).",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
-        "Salmonella Typhi: Colonias negras que pueden exhibir un brillo metálico muy fuerte de tipo \"espejo\", oscureciendo el medio circundante.",
-        "Otras Salmonella spp: Colonias negras a verdes."
+        "<em>Salmonella</em> Typhi: Colonias negras que pueden exhibir un brillo metálico muy fuerte de tipo \"espejo\", oscureciendo el medio circundante.",
+        "Otras <em>Salmonella</em> spp: Colonias negras a verdes."
       ],
       "imagenes": {
         "sin_sembrar": "/fotos/bismuto_base.png",
