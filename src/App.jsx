@@ -346,10 +346,27 @@ function App() {
                 ))}
               </div>
             )}
-
-          </div>
+            </div>
         </div>
       )}
+
+      {/* --- EL ESCUDO LEGAL Y CRÉDITOS (FOOTER) --- */}
+      <footer style={{ 
+        textAlign: 'center', 
+        padding: '2rem 1rem', 
+        marginTop: '3rem', 
+        color: '#94a3b8', 
+        fontSize: '0.85rem', 
+        borderTop: '1px solid var(--borde)' 
+      }}>
+        <p>&copy; {new Date().getFullYear()} Bacverse. Desarrollado por Rubén Vargas. Todos los Derechos Reservados.</p>
+        
+        {/* LA SECCIÓN DE AGRADECIMIENTOS */}
+        <p style={{ marginTop: '0.8rem', fontSize: '0.75rem', opacity: 0.8 }}>
+          Agradecimiento especial a la <strong>Dra. Graciela Castro Escarpulli</strong> por proveer el material fotográfico utilizado en este catálogo con fines exclusivamente educativos.
+        </p>
+      </footer>
+      {/* --- FIN DEL FOOTER --- */}
     </div>
   )
 }
