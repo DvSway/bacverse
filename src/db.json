@@ -336,9 +336,7 @@
         "sin_inocular_Azul_de_Toluidina": "/fotos/dnase_basea.png",
         "sin_inocular_Verde_de_Metilo": "/fotos/dnase_basev.png",
         "positiva_Azul_de_Toluidina": "/fotos/dnase_positivoa.png",
-        "positiva_Verde_de_Metilo": "/fotos/dnase_positivov.png",
-        "negativa y positiva_Azul_de_Toluidina": "/fotos/dnase_negativoa.png",
-        "negativa_Verde_de_Metilo": "/fotos/dnase_negativov.png"
+        "positiva_Verde_de_Metilo": "/fotos/dnase_positivov.png"
       }
     },
     {
@@ -1107,7 +1105,8 @@
         "Peptonización: Medio translúcido/acuoso y parduzco (destrucción de las proteínas de la leche) "
       ],
       "imagenes": {
-        "resultados posibles": "/fotos/leche_tornasolada.png"
+        "Alcalinización Positiva": "/fotos/lechetornasolada_positivo.png",
+        "Medio Sin Inocular":"/fotos/lechetornasolada_base.png"
       }
     },
     {
@@ -1183,7 +1182,8 @@
       ],
       "imagenes": {
         "sin_inocular": "/fotos/lechefierro_base.png",
-        "Positivo": "/fotos/lechefierro_positivo.png"
+        "Positivo": "/fotos/lechefierro_positivo.png",
+        "resultados posibles":"/fotos/lechefierro_resultados.png"
       }
     },
     {
