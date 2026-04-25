@@ -359,7 +359,7 @@ function App() {
         fontSize: '0.85rem', 
         borderTop: '1px solid var(--borde)' 
       }}>
-        <p>&copy; {new Date().getFullYear()} Bacverse. Desarrollado por Rubén Vargas. Todos los Derechos Reservados.</p>
+        <p>&copy; {new Date().getFullYear()} BacVerse. Desarrollado por Rubén Vargas. Todos los Derechos Reservados.</p>
         
         {/* LA SECCIÓN DE AGRADECIMIENTOS */}
         <p style={{ marginTop: '0.8rem', fontSize: '0.75rem', opacity: 0.8 }}>
