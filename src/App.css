@@ -475,7 +475,6 @@ header {
   color: var(--color-primario);
   border-bottom: 1px dashed #cbd5e1;
   padding-bottom: 0.5rem;
-  font-style: italic; /* ¡Esta es la magia! */
 }
 
 .grid-perfil {

@@ -6,7 +6,7 @@ import './App.css'
 const categoriasPruebas = {
   "Morfología y Pruebas Rápidas": [
     { id: 'gram', label: 'Tinción de Gram', opciones: ['+', '-'] },
-    { id: 'forma', label: 'Morfología', opciones: ['Cocos', 'Bacilos', 'Bacilos curvados', 'Cocobacilos', 'Diplococos'] },
+    { id: 'forma', label: 'Morfología', opciones: ['Cocos', 'Bacilos', 'Bacilos curvados', 'Bacilo corto', 'Diplococos'] },
     { id: 'catalasa', label: 'Catalasa', opciones: ['+', '-'] },
     { id: 'oxidasa', label: 'Oxidasa', opciones: ['+', '-'] },
     { id: 'coagulasa', label: 'Coagulasa', opciones: ['+', '-'] },
@@ -24,7 +24,7 @@ const categoriasPruebas = {
     { id: 'indol', label: 'Producción de Indol', opciones: ['+', '-'] },
   ],
     "Utilización de Carbohidratos": [  
-    { id: 'manitol', label: 'Manitol', opciones: ['+', '-'] },
+    { id: 'purpura_manitol', label: 'Púrpura Bromocresol: Manitol', opciones: ['+', '-'] },
     { id: 'purpura_xilosa', label: 'Púrpura Bromocresol: Xilosa', opciones: ['+', '-'] },
     { id: 'purpura_manosa', label: 'Púrpura Bromocresol: Manosa', opciones: ['+', '-'] },
     { id: 'purpura_sacarosa', label: 'Púrpura Bromocresol: Sacarosa', opciones: ['+', '-'] },
@@ -32,7 +32,14 @@ const categoriasPruebas = {
     { id: 'cta_glucosa', label: 'CTA Glucosa', opciones: ['+', '-'] },
     { id: 'cta_maltosa', label: 'CTA Maltosa', opciones: ['+', '-'] },
     { id: 'cta_lactosa', label: 'CTA Lactosa', opciones: ['+', '-'] },
-    { id: 'cta_sacarosa', label: 'CTA Sacarosa', opciones: ['+', '-'] }
+    { id: 'cta_sacarosa', label: 'CTA Sacarosa', opciones: ['+', '-'] },
+    { id: 'tio_glucosa', label: 'TIO Glucosa', opciones: ['+', '-'] },
+    { id: 'tio_lactosa', label: 'TIO Lactosa', opciones: ['+', '-'] },
+    { id: 'tio_manitol', label: 'TIO Manitol', opciones: ['+', '-'] },
+    { id: 'tio_ramnosa', label: 'TIO Ramnosa', opciones: ['+', '-'] },
+    { id: 'tio_sacarosa', label: 'TIO Sacarosa', opciones: ['+', '-'] },
+    { id: 'tio_salicina', label: 'TIO Salicina', opciones: ['+', '-'] }
+    
   ],
   "Vías Metabólicas y Enzimas Específicas": [
     { id: 'rm', label: 'Rojo de Metilo (RM)', opciones: ['+', '-'] },
@@ -250,7 +257,7 @@ function App() {
                 {bacteriasFiltradasPorPruebas.length > 0 ? (
                   bacteriasFiltradasPorPruebas.map((bac, i) => (
                     <div key={i} className="tarjeta-bacteria">
-                      <h3>{bac.nombre}</h3>
+                      <h3 dangerouslySetInnerHTML={{ __html: bac.nombre }} />
                       <div className="grid-perfil">
                         {Object.entries(bac).map(([clave, valor]) => {
                           if (clave === 'nombre') return null;
@@ -274,7 +281,7 @@ function App() {
               <div className="resultados-bacterias" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))' }}>
                 {bacteriasFiltradasPorNombre.map((bac, i) => (
                   <div key={i} className="tarjeta-bacteria">
-                    <h3>{bac.nombre}</h3>
+                    <h3 dangerouslySetInnerHTML={{ __html: bac.nombre }} />
                     <div className="grid-perfil">
                       {/* AQUÍ OCURRE LA MAGIA: Solo muestra las pruebas que están en el JSON */}
                       {Object.entries(bac).map(([clave, valor]) => {
