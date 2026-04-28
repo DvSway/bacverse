@@ -515,7 +515,7 @@
     {
       "nombre": "Gelosa Yema de Huevo (Agar Yema de Huevo)",
       "composicion": "Base nutritiva proteica, enriquecida con yema de huevo pura (10%).",
-      "fundamento": "Medio diferencial utilizado para la presunta identificación de ciertos anaerobios (como <em>Clostridium perfringens</em>) y <em>Staphylococcus</em> o <em>Bacillus</em>. Permite evidenciar la producción de las exoenzimas lecitinasa y lipasa",
+      "fundamento": "Medio diferencial utilizado para la presunta identificación de ciertos anaerobios (como <em>Clostridium perfringens</em>, <em>Staphylococcus</em> o <em>Bacillus</em>). Permite evidenciar la producción de las exoenzimas lecitinasa y lipasa",
       "condiciones_crecimiento": "35-37°C en condiciones apropiadas al microorganismo (usualmente anaerobiosis por 48 horas si se busca <em>Clostridium</em>).",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
