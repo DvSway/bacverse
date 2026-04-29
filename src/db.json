@@ -982,7 +982,8 @@
         "Ennegrecimiento: Producción de H2S."
       ],
       "imagenes": {
-        "resultados posibles": "/fotos/lia.png"
+        "ejemplo":"/fotos/lia.png",
+        "resultados posibles": "/fotos/lia_teorico.png"
       }
     },
     {

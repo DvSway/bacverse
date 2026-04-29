@@ -307,7 +307,7 @@ function App() {
             <h2 style={{ marginBottom: '1rem', color: 'var(--color-primario)' }}>{itemSeleccionado.nombre}</h2>
             
            {/* 1. PRIMERO LA TEORÍA (Fundamento e Interpretación) */}
-            <div className="modal-info" style={{ marginTop: '1rem' }}>
+            <div className="modal-info" style={{ marginTop: '1rem',textAlign: 'justify' }}>
               {itemSeleccionado.composicion && <p style={{ marginBottom: '0.8rem' }}><strong>Composición:</strong> <span dangerouslySetInnerHTML={{ __html: itemSeleccionado.composicion }} /></p>}
               
               <p style={{ marginBottom: '0.8rem' }}><strong>Fundamento:</strong> <span dangerouslySetInnerHTML={{ __html: itemSeleccionado.fundamento }} /></p>
