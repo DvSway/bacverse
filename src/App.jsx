@@ -52,6 +52,7 @@ const categoriasPruebas = {
     { id: 'ldc', label: 'Lisina (LDC)', opciones: ['+', '-'] },
     { id: 'arabinosa', label: 'Utilización de Arabinosa', opciones: ['+', '-'] },
     { id: 'hipurato', label: 'Hidrólisis de Hipurato', opciones: ['+', '-'] },
+    { id: 'dnasa', label: 'DNasa', opciones: ['+', '-'] }
   ],
   "O/F y Exigentes": [
     { id: 'of_glucosa', label: 'O/F Hugh-Leifson Glucosa', opciones: ['Oxidador', 'Fermentador', 'Asacarolitico'] },
