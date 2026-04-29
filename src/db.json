@@ -569,6 +569,52 @@
       "imagenes": {
         "sin_inocular": "/fotos/cesculina_base.png"
       }
+    },
+    {
+      "nombre": "Gelosa CLED (Cystine-Lactose-Electrolyte-Deficient)",
+      "composicion": "Peptona, ectracto de carne, tripteína, lactosa, L-Cistina, Azul de Bromotimol como indicador.",
+      "fundamento": "diseñado para el procesamiento de urocultivos que basa su selectividad diferencial en la deficiencia de electrolitos. Esta restricción electrolítica impide específicamente el desarrollo invasor (swarming) de especies del género <em>Proteus</em>, facilitando el recuento de colonias. La diferenciación se fundamenta en la utilización de la lactosa; el indicador azul de bromotimol vira al amarillo ante la presencia de ácidos derivados de dicha utilización.",
+      "condiciones_crecimiento": "35-37°C en aerobiosis por 24 a 48 horas.",
+      "reactivos_metodologia": "No requiere reactivos adicionales.",
+      "interpretacion": [
+        "Positivo para Utilización de lactosa (Lac+): Colonias color amarillo.",
+        "Negativo para Utilización de lactosa (Lac-): Colonias transparentes o azules."
+      ],
+      "imagenes": {
+        "lactosa_negativa":"/fotos/cled_negativo.png",
+        "lactosa_positiva":"/fotos/cled_positivo.png"
+      }
+    },
+    {
+      "nombre": "CHROMagar™ Orientador",
+      "composicion": "Peptona, extracto de levadura, mezcla cromogénica.",
+      "fundamento": "Para el aislamiento y la diferenciación de patógenos del tracto urinario (generalmente). Destinado a la detección cualitativa directa, diferenciación e identificación presuntiva de uropatógenos. Se basa en la utilización de sustratos cromogénicos específicos que, al ser hidrolizados por enzimas particulares de cada especie bacteriana, liberan cromóforos que tiñen las colonias de colores distintivos, permitiendo una identificación visual inmediata.",
+      "condiciones_crecimiento": "35-37°C en aerobiosis por 24 a 48 horas.",
+      "reactivos_metodologia": "No requiere reactivos adicionales debido a que dependiendo del color es el microorganismo presuntivo.",
+      "interpretacion": [ 
+        "<em>E. coli</em>: Rosa oscuro a rojizo",
+        "<em>Enterococcus</em>: Azul turquesa",
+        "<em>Proteus</em>: Marrón",
+        "<em>Klebsiella</em>, <em>Enterobacter</em>, <em>Serratia</em>: Azul metálico",
+        "<em>S. aureus</em>: Dorado, opaco y pequeño",
+        "<em>Citrobacter</em>: Azul metálico con halo rojo",
+        "<em>S. saprophyticus</em>: Rosa, opaco y pequeño",
+        "<em>Streptococcus agalactiae</em>: Azul claro",
+        "<em>Pseudomonas aeruginosa</em>: Translúcido, crema o azul cielo"
+        
+      ],
+      "imagenes": {
+        "resultados posibles":"/fotos/chromagar.png",
+        "<em>E. coli</em>":"/fotos/ecoli.png",
+        "<em>Enterococcus</em>":"/fotos/enterococcus.png",
+        "<em>Proteus</em>":"/fotos/proteus.png",
+        "<em>Klebsiella</em>, <em>Enterobacter</em>, <em>Serratia</em>":"/fotos/kes.png",
+        "<em>S. aureus</em>":"/fotos/saureus.png",
+        "<em>Citrobacter</em>":"/fotos/citrobacter.png",
+        "<em>S. saprophyticus</em>":"/fotos/saprophyticus.png",
+        "<em>Streptococcus agalactiae</em>":"/fotos/sagalactiae.png",
+        "<em>Pseudomonas aeruginosa</em>":"/fotos/pseudoaeru.png"
+      }
     }
   ],
   "pruebas_bioquimicas": [

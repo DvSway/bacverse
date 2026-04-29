@@ -371,7 +371,7 @@ function App() {
         
         {/* LA SECCIÓN DE AGRADECIMIENTOS */}
         <p style={{ marginTop: '0.8rem', fontSize: '0.75rem', opacity: 0.8 }}>
-          Agradecimiento especial a la <strong>Dra. Graciela Castro Escarpulli</strong> por proveer el material fotográfico utilizado en este catálogo con fines exclusivamente educativos.
+          Agradecimiento especial a la <strong>Dra. Graciela Castro Escarpulli</strong> por apoyar con el material fotográfico utilizado en este catálogo con fines exclusivamente educativos.
         </p>
       </footer>
       {/* --- FIN DEL FOOTER --- */}
