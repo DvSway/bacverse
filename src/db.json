@@ -561,13 +561,14 @@
       "composicion": "Extracto de corazón o base BHI, esculina, citrato férrico, peptonas, hemina y menadiona.",
       "fundamento": "Medio diferencial que determina la capacidad de un microorganismo anaerobio (especialmente para diferenciar el grupo <em>Bacteroides fragilis</em>) para hidrolizar el glucosido esculina en esculetina y dextrosa. La esculetina recién formada reacciona con los iones de hierro (del citrato férrico) produciendo un complejo de coordinación de color marrón oscuro/negro masivo.",
       "condiciones_crecimiento": "35-37°C bajo condiciones estrictamente anaeróbicas durante 48 a 72 horas.",
-      "reactivos_metodologia": "No requiere reactivos adicionales (el indicador ya está en el caldo).",
+      "reactivos_metodologia": "Se adiciona Citrato Férrico al tubo y se homogeniza. En caso de no tener Citrato Férrico se puede revelar con luz UV.",
       "interpretacion": [
         "Positivo: El caldo se torna completamente negro (indica hidrólisis de esculina).",
         "Negativo: Crecimiento (turbidez), pero sin cambio masivo a color negro; o la falta de cambio se corrobora bajo luz UV (esculina intacta fluoresce azul pálido, la esculetina no)."
       ],
       "imagenes": {
-        "sin_inocular": "/fotos/cesculina_base.png"
+        "sin_inocular": "/fotos/cesculina_base.png",
+        "Resultados Positivos y Negativos con UV":"/fotos/esculina_anaerobios.png"
       }
     },
     {
@@ -948,7 +949,7 @@
       ],
       "imagenes": {
         "ejemplo":"fotos/tsi_ejemplo.png",
-        "resultados posibles": "/fotos/tsi.png"
+        "resultados posibles teóricos": "/fotos/tsi.png"
       }
     },
     {
@@ -966,7 +967,7 @@
       ],
       "imagenes": {
         "ejemplo":"fotos/kia_ejemplo.png",
-        "resultados posibles": "/fotos/kia.png"                        
+        "resultados posibles teóricos": "/fotos/kia.png"                        
       }
     },
     {
@@ -1228,11 +1229,13 @@
       "condiciones_crecimiento": "35-37°C, anaerobiosis estricta, 24-48 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
-        "Positivo: \"Tormenta de nieve\" o coágulo tormentoso (acidificación intensa + gas que rompe el coágulo) y ennegrecimiento por H2S."
+        "Tormenta de Nieve: Coágulo tormentoso (acidificación intensa + gas que rompe el coágulo) y algunas veces ennegrecimiento por H2S."
       ],
       "imagenes": {
         "sin_inocular": "/fotos/lechefierro_base.png",
-        "Positivo": "/fotos/lechefierro_positivo.png",
+        "\"Tormenta de Nieve\"": "/fotos/lechefierro_positivo.png",
+        "Digestión de la Leche":"/fotos/lechefierro_digestion.png",
+        "Formación de Coagulo":"/fotos/lechefierro_coagulo.png",
         "resultados posibles":"/fotos/lechefierro_resultados.png"
       }
     },
