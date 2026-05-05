@@ -99,9 +99,9 @@
       "condiciones_crecimiento": "35-37°C. Aerobiosis o atmósfera enriquecida con CO2 (5-10%) dependiendo del microorganismo (e.g. <em>Streptococcus</em>).Incubación de 18 a 24 horas (o más para microorganismos de crecimiento lento).",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
-        "Hemólisis Beta (β): Halo transparente de lisis total alrededor de la colonia.",
-        "Hemólisis Alfa (a): Halo verdoso u oscuro de lisis parcial (oxidación de la hemoglobina a metahemoglobina).",
-        "Hemólisis Gamma (y): Ausencia de halo; no hay lisis celular."
+        "Hemólisis Beta (\u03B2): Halo transparente de lisis total alrededor de la colonia.",
+        "Hemólisis Alfa (\u03B1): Halo verdoso u oscuro de lisis parcial (oxidación de la hemoglobina a metahemoglobina).",
+        "Hemólisis Gamma (\u03B3): Ausencia de halo; no hay lisis celular."
       ],
       "imagenes": {
         "sin_sembrar": "/fotos/sangre_base.png",
@@ -130,7 +130,7 @@
     {
       "nombre": "Gelosa Sal y Manitol (Agar Sal y Manitol / MSA)",
       "composicion": "Extracto de carne, peptona, manitol (1%), cloruro de sodio (7.5%), rojo fenol (indicador de pH) y agar.",
-      "fundamento": "Medio fuertemente selectivo y diferencial para el aislamiento de estafilococos. La alta concentración de sal inhibe a la mayoría de las bacterias que no son halotolerantes. El manitol y el rojo fenol diferencian a las especies que utilizan (e.g. <em>Staphylococcus aureus</em>) de las no que utilizan (e.g.<em>S. epidermidis</em>).",
+      "fundamento": "Medio fuertemente selectivo y diferencial para el aislamiento de estafilococos. La alta concentración de sal inhibe a la mayoría de las bacterias que no son halotolerantes. El manitol y el rojo fenol diferencian a las especies que utilizan (e.g. <em>Staphylococcus aureus</em>) de las no que utilizan (e.g. <em>S. epidermidis</em>).",
       "condiciones_crecimiento": "35-37°C en aerobiosis por 24 a 48 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
@@ -176,7 +176,7 @@
     {
       "nombre": "Caldo Todd Hewitt sin NaCl",
       "composicion": "Infusión de corazón de res, peptona especial, dextrosa, fosfato disódico, carbonato de sodio. (Fórmula clásica carente de suplementos extra de cloruro de sodio).",
-      "fundamento": "Caldo altamente enriquecido diseñado para el cultivo de volumen de bacterias sensibles (exigentes), típicamente utilizado para propiciar el crecimiento logarítmico rápido de especies del género Streptococcus, ideal para posterior tipaje serológico de antígenos de Lancefield, ya que favorece la producción de cápsulas y exotoxinas y no suprime estreptococos no entéricos.",
+      "fundamento": "Caldo altamente enriquecido diseñado para el cultivo de volumen de bacterias sensibles (exigentes), típicamente utilizado para propiciar el crecimiento logarítmico rápido de especies del género <em>Streptococcus</em>, ideal para posterior tipaje serológico de antígenos de Lancefield, ya que favorece la producción de cápsulas y exotoxinas y no suprime estreptococos no entéricos.",
       "condiciones_crecimiento": "35-37°C en aerobiosis o microaerofilia por 18 a 24 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales para el crecimiento.",
       "interpretacion": [
@@ -188,8 +188,8 @@
     },
     {
       "nombre": "Gelosa Casman (Agar Base Casman)",
-      "composicion": "Infusión de triptosa y carne, extracto de levadura, cloruro de sodio, nicotinamida, agar y sangre (usualmente humana o de carnero, 5%).",
-      "fundamento": "Medio altamente enriquecido diseñado para el cultivo primario de microorganismos muy exigentes como <em>Haemophilus</em> y <em>Neisseria</em>. La nicotinamida inactiva las enzimas que destruyen el Factor V (NAD) en la sangre, favoreciendo el crecimiento de especies dependientes de factores V y X.",
+      "composicion": "Infusión de triptosa y carne, extracto de levadura, cloruro de sodio, nicotinamida, almidón, agar y sangre (usualmente humana o de carnero, 5%).",
+      "fundamento": "Medio altamente enriquecido diseñado para el cultivo primario de microorganismos muy exigentes como <em>Haemophilus</em> y <em>Neisseria</em>. La nicotinamida inactiva las enzimas que destruyen el Factor V (NAD) en la sangre, favoreciendo el crecimiento de especies dependientes de factores V y X. El almidón neutraliza posibles metabolitos tóxicos.",
       "condiciones_crecimiento": "35-37°C en atmósfera con 5-10% de CO2 durante 24 a 48 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
@@ -206,7 +206,7 @@
       "condiciones_crecimiento": "35-37°C en aerobiosis. La incubación es prolongada (de 2 a 8 semanas) en tubos con tapón flojo la primera semana para permitir oxigenación, y luego cerrados para evitar desecación.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
-        "M. tuberculosis: Colonias rugosas, secas, friables, de color crema a amarillo pálido (aspecto de \"miga de pan\").",
+        "<em>M. tuberculosis</em>: Colonias rugosas, secas, friables, de color crema a amarillo pálido (aspecto de \"miga de pan\").",
         "Ausencia de crecimiento a las 8 semanas: Cultivo negativo para micobacterias."
       ],
       "imagenes": {
@@ -250,11 +250,11 @@
     {
       "nombre": "Gelosa EMB (Agar Eosina Azul de Metileno)",
       "composicion": "Peptona, lactosa, sacarosa, fosfato dipotásico, eosina, azul de metileno y agar.",
-      "fundamento": "Medio ligeramente selectivo y diferencial. Los colorantes eosina y azul de metileno inhiben parcialmente a las bacterias gram positivas y actúan como indicadores de pH ante la Utilización de lactosa o sacarosa por parte de enterobacterias.",
+      "fundamento": "Medio ligeramente selectivo y diferencial. Los colorantes eosina y azul de metileno inhiben parcialmente a las bacterias gram positivas y actúan como indicadores de pH ante la utilización de lactosa o sacarosa por parte de enterobacterias.",
       "condiciones_crecimiento": "35-37°C en aerobiosis por 18 a 24 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
-        "Fermentadores fuertes (e.g. <em>E. coli</em>): Colonias oscuras con un característico brillo metálico verde.",
+        "Fermentadores fuertes (e.g. <em>E. coli</em>): Colonias oscuras con un característico brillo metálico verde. También <em>Yersinia</em> se observa con dicho brillo.",
         "Fermentadores lentos/débiles (e.g. <em>Klebsiella</em>): Colonias grandes, mucosas, de centro oscuro rosado/violáceo sin brillo metálico.",
         "No fermentadores: Colonias incoloras, translúcidas o color ámbar."
       ],
@@ -267,7 +267,7 @@
     {
       "nombre": "Gelosa TCBS (Agar Tiosulfato Citrato Bilis Sacarosa)",
       "composicion": "Extracto de levadura, peptonas, sacarosa, tiosulfato de sodio, citrato de sodio, sales biliares, citrato férrico, azul de bromotimol, azul de timol y agar.",
-      "fundamento": "Altamente selectivo y diferencial para el aislamiento de especies de <em>Vibrio</em> a partir de muestras clínicas (especialmente heces). El pH alcalino (8.6), las sales biliares y el citrato inhiben a la mayoría de la microbiota intestinal. La sacarosa y los indicadores de pH diferencian las especies que utilizan de las no que utilizan, y el tiosulfato con el hierro detectan la producción de H2S.",
+      "fundamento": "Altamente selectivo y diferencial para el aislamiento de especies de <em>Vibrio</em> a partir de muestras clínicas (especialmente heces). El pH alcalino (8.6), las sales biliares y el citrato inhiben a la mayoría de la microbiota intestinal. La sacarosa y los indicadores de pH diferencian las especies que utilizan de las no que utilizan, y el tiosulfato con el hierro detectan la producción de H2S. También pueden llegar desarrollar los géneros <em>Aeromonas</em> y <em>Enterococcus</em>.",
       "condiciones_crecimiento": "35-37°C en aerobiosis por 18 a 24 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
@@ -283,12 +283,12 @@
     {
       "nombre": "Gelosa Nutritiva con NaCl 0%, 6% Y 8% (Agar Nutritivo con Diferentes Concentraciones de Sal)",
       "composicion": "Extracto de carne, peptona, agar y cloruro de sodio ajustado específicamente al 0%, 6% u 8%.",
-      "fundamento": "Prueba de tolerancia salina. El medio basal no es selectivo, pero al graduar las concentraciones de NaCl, se ejerce presión selectiva estricta basada en la presión osmótica. Útil para diferenciar especies del género Vibrio o aislar halófilos estrictos versus halotolerantes.",
+      "fundamento": "Prueba de tolerancia salina. El medio basal no es selectivo, pero al graduar las concentraciones de NaCl, se ejerce presión selectiva estricta basada en la presión osmótica. Útil para diferenciar especies del género <em>Vibrio</em> o aislar halófilos estrictos versus halotolerantes.",
       "condiciones_crecimiento": "35-37°C en aerobiosis por 18 a 24 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
-        "Crecimiento en 0%: Bacterias no dependientes de sal (e.g. <em> Vibrio cholerae </em>).",
-        "Crecimiento exclusivo en 6% u 8%: Bacterias halófilas que requieren alta presión osmótica (e.g. <em> Vibrio parahaemolyticus </em>)."
+        "Crecimiento en 0%: Bacterias no dependientes de sal (e.g. <em> Vibrio cholerae</em>).",
+        "Crecimiento exclusivo en 6% u 8%: Bacterias halófilas que requieren alta presión osmótica (e.g. <em> Vibrio parahaemolyticus</em>)."
       ],
       "imagenes": {
         "sin_sembrar": "/fotos/gn_base.png",
@@ -326,7 +326,7 @@
     {
       "nombre": "Gelosa DNasa (Agar DNasa)",
       "composicion": "Triptosa, DNA, cloruro de sodio y agar.",
-      "fundamento": "Prueba diferencial para determinar la capacidad de un microorganismo de producir la exoenzima desoxirribonucleasa (DNasa), la cual hidroliza las cadenas de DNA. Útil para diferenciar <em>Staphylococcus aureus</em> (positivo) de coagulasa negativos, o <em>Moraxella catarrhalis</em> de <em>Neisseria</em>.",
+      "fundamento": "Prueba diferencial para determinar la capacidad de un microorganismo de producir la exoenzima desoxirribonucleasa (DNasa), la cual hidroliza las cadenas de DNA. Útil para diferenciar <em>Staphylococcus aureus</em> (positivo) de SCN, o <em>Moraxella catarrhalis</em> (positivo) de <em>Neisseria</em>.",
       "condiciones_crecimiento": "35-37°C en aerobiosis por 18 a 24 horas.",
       "reactivos_metodologia": "Después de la incubación, inundar la placa con Ácido Clorhídrico (HCl) 1N. Dejar reposar por unos minutos y desechar el exceso. En caso de que se haya utilizado un medio con Verde de Metilo o Azul de Toluidina se observaran halos de hidrólisis alrededor de las colonias (Transparentes y Rosas, respectivamente).",
       "interpretacion": [
@@ -341,7 +341,7 @@
       }
     },
     {
-      "nombre": "Gelosa Mueller-Hinton (Agar Mueller-Hinton)",
+      "nombre": "Gelosa Müeller-Hinton (Agar Müeller-Hinton)",
       "composicion": "Extracto de carne bovina, hidrolizado ácido de caseína, almidón, agar. Generalmente ajustado en iones divalentes (Ca2+ y Mg2+).",
       "fundamento": "Es el medio estandarizado (según normas CLSI o EUCAST) para la realización de pruebas de susceptibilidad antimicrobiana por difusión en disco (Kirby-Bauer). Es un medio no selectivo, libre de inhibidores como PABA, con una composición que permite una difusión estable de los antibióticos. El almidón absorbe toxinas metabólicas producidas por las bacterias.",
       "condiciones_crecimiento": "35±2°C en aerobiosis (o 5% CO2 para organismos exigentes previa adición de sangre), por 16 a 18 horas.",
@@ -370,7 +370,7 @@
     {
       "nombre": "Gelosa Brucella (Agar Brucella)",
       "composicion": "Digerido pancreático de caseína, digerido péptico de carne animal, extracto de levadura, cloruro de sodio, bisulfito de sodio y agar. A menudo suplementado con hemina y vitamina K para anaerobios, o sangre de carnero.",
-      "fundamento": "Medio altamente enriquecido diseñado originariamente para especies de Brucella, pero ampliamente utilizado (con aditivos) como medio no selectivo robusto para el aislamiento de bacterias anaerobias estrictas, micobacterias y otros microorganismos fastidiosos de importancia clínica.",
+      "fundamento": "Medio altamente enriquecido diseñado originariamente para especies de <em>Brucella</em>, pero ampliamente utilizado (con aditivos) como medio no selectivo robusto para el aislamiento de bacterias anaerobias estrictas, micobacterias y otros microorganismos fastidiosos de importancia clínica.",
       "condiciones_crecimiento": "35-37°C bajo atmósfera anaeróbica (para anaerobios) o microaerofílica (para <em>Campylobacter</em> o <em>Brucella</em>), durante 48 horas a varios días.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
@@ -445,7 +445,7 @@
       "condiciones_crecimiento": "35-37°C en atmósfera húmeda con 5-10% de CO2 durante 24 a 72 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales. Se puede utilizar posteriormente reactivo de oxidasa sobre las colonias.",
       "interpretacion": [
-        "Colonias pequeñas, grisáceas, translúcidas a opacas sugieren fuertemente la presencia de Neisseria patógenas, dado el alto poder selectivo del medio."
+        "Colonias pequeñas, grisáceas, translúcidas a opacas sugieren fuertemente la presencia de <em>Neisseria</em> patógenas, dado el alto poder selectivo del medio."
       ],
       "imagenes": {
         "sin_sembrar": "/fotos/tm_base.png",
@@ -454,7 +454,7 @@
     },
     {
       "nombre": "Gelosa Chocolate (Agar Chocolate)",
-      "composicion": "Medio basal enriquecido (e.g. base GC o Mueller-Hinton) con un 5-10% de sangre desfibrinada (carnero, caballo o conejo) que se añade en caliente (a 80°C para lisar los eritrocitos). Se le añaden suplementos de enriquecimiento biológico (como IsoVitaleX, que aporta hemina y NAD).",
+      "composicion": "Medio basal enriquecido (e.g. base GC o Müeller-Hinton) con un 5-10% de sangre desfibrinada (carnero, caballo o conejo) que se añade en caliente (a 80°C para lisar los eritrocitos). Se le añaden suplementos de enriquecimiento biológico (como IsoVitaleX, que aporta hemina y NAD).",
       "fundamento": "Medio no selectivo pero altamente enriquecido. La lisis térmica de los eritrocitos libera el factor X (hemina) y el factor V (NAD) al medio, los cuales son estrictamente necesarios para el crecimiento de microorganismos como <em>Haemophilus influenzae</em> y <em>Neisseria meningitidis</em>. La sangre lisada da el color marrón \"chocolate\".",
       "condiciones_crecimiento": "35-37°C en atmósfera rica en CO2 (5-10%) durante 24 a 48 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
@@ -483,7 +483,7 @@
     {
       "nombre": "Caldo Tioglicolato",
       "composicion": "Tripticasa, L-cistina, glucosa, extracto de levadura, cloruro de sodio, tioglicolato de sodio, resazurina (indicador redox) y un bajísimo porcentaje de agar (0.075%).",
-      "fundamento": "Medio enriquecido diseñado para aislar una amplia gama de bacterias (aerobias, anaerobias, microaerofílicas). El tioglicolato y la cistina actúan como agentes reductores, consumiendo el oxígeno disuelto en el fondo del tubo y creando un gradiente de oxígeno (desde anaerobiosis estricta abajo hasta aerobiosis arriba). El mínimo porcentaje de agar retrasa la difusión del O2 descendente. Si no se le adiciona Glucosa ni Indicador y se le pone un tapón de aceite se puede utilizar para determinación de utilización de carbohidratos (añadiendo el carbohidrato necesario).",
+      "fundamento": "Medio enriquecido diseñado para aislar una amplia gama de bacterias (aerobias, anaerobias, microaerofílicas). El tioglicolato y la cistina actúan como agentes reductores, consumiendo el oxígeno disuelto en el fondo del tubo y creando un gradiente de oxígeno (desde anaerobiosis estricta abajo hasta aerobiosis arriba). El mínimo porcentaje de agar retrasa la difusión del O2 descendente. Si no se le adiciona indicador ni glucosa y se le pone un tapón de aceite se puede utilizar para determinación de utilización de carbohidratos (añadiendo el carbohidrato necesario) en bacterias anaerobias.",
       "condiciones_crecimiento": "35-37°C en aerobiosis por 24 a 48 horas (o hasta 7 días).",
       "reactivos_metodologia": "No requiere reactivos adicionales para ver el desarollo microbiano. Se puede utilizar para denotar la presencia de Indol por acción de la tripfonasa sobre el triptófano al adicionar 3 a 5 gotas del reactivo de Kovacs (alcohol isoamílico, para-dimethilaminobenzaldehído (DMAB), and ácido clorhídrico concentrado).",
       "interpretacion": [
@@ -515,12 +515,12 @@
     {
       "nombre": "Gelosa Yema de Huevo (Agar Yema de Huevo)",
       "composicion": "Base nutritiva proteica, enriquecida con yema de huevo pura (10%).",
-      "fundamento": "Medio diferencial utilizado para la presunta identificación de ciertos anaerobios (como <em>Clostridium perfringens</em>, <em>Staphylococcus</em> o <em>Bacillus</em>). Permite evidenciar la producción de las exoenzimas lecitinasa y lipasa",
+      "fundamento": "Medio diferencial utilizado para la presunta identificación de ciertos anaerobios (e.g. <em>Clostridium perfringens</em>, <em>Staphylococcus</em> o <em>Bacillus</em>). Permite evidenciar la producción de las exoenzimas lecitinasa y lipasa",
       "condiciones_crecimiento": "35-37°C en condiciones apropiadas al microorganismo (usualmente anaerobiosis por 48 horas si se busca <em>Clostridium</em>).",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
-        "Actividad Lecitinasa: Zona opaca de precipitación masiva alrededor y por debajo de las colonias (degradación de la lecitina a diglicéridos insolubles).",
-        "Actividad Lipasa: Brillo perlado/iridiscente característico en la superficie de las colonias y en el agar adyacente (parecido a aceite sobre agua)."
+        "Lecitinasa: Zona opaca de precipitación masiva alrededor y por debajo de las colonias (degradación de la lecitina a diglicéridos insolubles).",
+        "Lipasa: Brillo perlado/iridiscente característico en la superficie de las colonias y en el agar adyacente (parecido a aceite sobre agua)."
       ],
       "imagenes": {
         "sin_sembrar": "/fotos/ey_base.png",
@@ -545,7 +545,7 @@
     {
       "nombre": "Caldo Carne Picada con Dextrosa (Caldo de Carne Cocida)",
       "composicion": "Músculo de corazón de res o caballo en partículas (picado grueso), peptonas, extracto de levadura, dextrosa, hemina, vitamina K y aminoácidos.",
-      "fundamento": "Excelente caldo enriquecido para el aislamiento, mantención y determinación de viabilidad de bacterias anaerobias estrictas. Los fragmentos musculares actúan reduciendo el potencial redox gracias a los grupos sulfhidrilo (glutationina) de sus proteínas. Además, permite evidenciar características bioquímicas como la sacarólisis y proteólisis de bacterias del género <em>Clostridium</em>.",
+      "fundamento": "Excelente caldo enriquecido para el aislamiento, mantención y determinación de viabilidad de bacterias anaerobias. Los fragmentos musculares actúan reduciendo el potencial redox gracias a los grupos sulfhidrilo (glutationina) de sus proteínas. Además, permite evidenciar características bioquímicas como la sacarólisis y proteólisis de bacterias del género <em>Clostridium</em>.",
       "condiciones_crecimiento": "35-37°C. Puede requerirse pre-hervido del medio para expulsar O2. Incubación anaeróbica no es estrictamente obligatoria si el volumen es adecuado, de 2 a 7 días.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
@@ -559,12 +559,12 @@
     {
       "nombre": "Caldo Esculina para Anaerobios",
       "composicion": "Extracto de corazón o base BHI, esculina, citrato férrico, peptonas, hemina y menadiona.",
-      "fundamento": "Medio diferencial que determina la capacidad de un microorganismo anaerobio (especialmente para diferenciar el grupo <em>Bacteroides fragilis</em>) para hidrolizar el glucosido esculina en esculetina y dextrosa. La esculetina recién formada reacciona con los iones de hierro (del citrato férrico) produciendo un complejo de coordinación de color marrón oscuro/negro masivo.",
+      "fundamento": "Medio diferencial que determina la capacidad de un microorganismo anaerobio (especialmente para diferenciar el grupo <em>Bacteroides fragilis</em>) para hidrolizar la esculina en esculetina y dextrosa. La esculetina recién formada reacciona con los iones de hierro (del citrato férrico) produciendo un complejo de coordinación de color marrón oscuro/negro masivo.",
       "condiciones_crecimiento": "35-37°C bajo condiciones estrictamente anaeróbicas durante 48 a 72 horas.",
       "reactivos_metodologia": "Se adiciona Citrato Férrico al tubo y se homogeniza. En caso de no tener Citrato Férrico se puede revelar con luz UV.",
       "interpretacion": [
         "Positivo: El caldo se torna completamente negro (indica hidrólisis de esculina).",
-        "Negativo: Crecimiento (turbidez), pero sin cambio masivo a color negro; o la falta de cambio se corrobora bajo luz UV (esculina intacta fluoresce azul pálido, la esculetina no)."
+        "Negativo: Crecimiento (turbidez), sin cambio a color negro; o la falta de cambio se corrobora bajo luz UV (esculina intacta fluoresce azul pálido, la esculetina no)."
       ],
       "imagenes": {
         "sin_inocular": "/fotos/cesculina_base.png",
@@ -573,7 +573,7 @@
     },
     {
       "nombre": "Gelosa CLED (Cystine-Lactose-Electrolyte-Deficient)",
-      "composicion": "Peptona, ectracto de carne, tripteína, lactosa, L-Cistina, Azul de Bromotimol como indicador.",
+      "composicion": "Peptona, extracto de carne, tripteína, lactosa, L-Cistina, Azul de Bromotimol como indicador.",
       "fundamento": "diseñado para el procesamiento de urocultivos que basa su selectividad diferencial en la deficiencia de electrolitos. Esta restricción electrolítica impide específicamente el desarrollo invasor (swarming) de especies del género <em>Proteus</em>, facilitando el recuento de colonias. La diferenciación se fundamenta en la utilización de la lactosa; el indicador azul de bromotimol vira al amarillo ante la presencia de ácidos derivados de dicha utilización.",
       "condiciones_crecimiento": "35-37°C en aerobiosis por 24 a 48 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
@@ -655,7 +655,7 @@
       "reactivos_metodologia": "No requiere reactivos adicionales post-incubación. (Nota: Se requiere añadir vaselina estéril o aceite mineral al tubo \"con sello\" antes de incubar).",
       "interpretacion": [
         "Oxidación: Tubo abierto amarillo, tubo sellado verde.",
-        "Utilización: Ambos tubos amarillos.",
+        "Fermentación: Ambos tubos amarillos.",
         "Inactivo (asacarolítico): Ambos tubos verdes o tubos color azul si utiliza las peptonas."
       ],
       "imagenes": {
@@ -716,7 +716,7 @@
     {
       "nombre": "Utilización de Carbohidratos en CTA (Cistina Tripticasa Agar)",
       "composicion": "Cistina, tripticasa, NaCl, sulfito de sodio, rojo de fenol, agar semisólido. Se añade 1% de carbohidratos (maltosa, sacarosa, glucosa, etc.).",
-      "fundamento": "Medio basal ideal para el cultivo y prueba de Utilización de bacterias exigentes, notablemente especies de Neisseria.",
+      "fundamento": "Medio basal ideal para el cultivo y prueba de Utilización de bacterias exigentes, notablemente especies de <em>Neisseria</em>.",
       "condiciones_crecimiento": "35-37°C, sin CO2 (incubación atmosférica estricta para no alterar el pH inicial), 24-72 horas.",
       "reactivos_metodologia": "Inocular abundantemente el tercio superior del tubo.",
       "interpretacion": [
@@ -737,7 +737,7 @@
       "condiciones_crecimiento": "25°C y 35-37°C aerobiosis, 18-24 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
-        "Positivo: Turbidez o crecimiento difuso que se aleja de la línea de picadura.",
+        "Positivo: Turbidez o crecimiento difuso que se aleja de la línea de picadura. En el caso de <em>Listeria</em> se observa la forma de un paraguas.",
         "Negativo: Crecimiento confinado estrictamente a la línea de picadura."
       ],
       "imagenes": {
@@ -749,7 +749,7 @@
     {
       "nombre": "Coagulasa",
       "composicion": "Plasma de conejo (con EDTA o citrato como anticoagulante).",
-      "fundamento": "Diferencia Staphylococcus aureus (positivo) de estafilococos coagulasa negativos. Detecta el \"factor de agrupamiento\" (coagulasa ligada, en portaobjetos) o la coagulasa libre (en tubo), que convierten el fibrinógeno en fibrina.",
+      "fundamento": "Diferencia <em>Staphylococcus aureus</em> (positivo) de estafilococos coagulasa negativos. Detecta el \"factor de agrupamiento\" (coagulasa ligada, en portaobjetos) o la coagulasa libre (en tubo), que convierten el fibrinógeno en fibrina.",
       "condiciones_crecimiento": "35-37°C, incubación aerobia. (Para prueba en tubo: leer a las 4 horas; si es negativo, dejar hasta 24 horas a temperatura ambiente).",
       "reactivos_metodologia": "No requiere reactivos post-incubación. Inocular el plasma y observar coagulación.",
       "interpretacion": [
@@ -766,7 +766,7 @@
       "nombre": "Taxo Novobiocina",
       "composicion": "Discos de papel filtro impregnados con 5 µg de novobiocina.",
       "fundamento": "Determina la susceptibilidad intrínseca a la novobiocina. Útil para diferenciar <em>Staphylococcus saprophyticus</em> (resistente) de otros SCN (sensibles).",
-      "condiciones_crecimiento": "35-37°C, aerobiosis, 18-24 horas (en placas de agar sangre o agar Mueller-Hinton).",
+      "condiciones_crecimiento": "35-37°C, aerobiosis, 18-24 horas (en placas de agar sangre o agar Müeller-Hinton).",
       "reactivos_metodologia": "No requiere reactivos adicionales. Medir el halo de inhibición con regla o calibrador.",
       "interpretacion": [
         "Sensible: Halo >16 mm. ",
@@ -794,7 +794,7 @@
     {
       "nombre": "Taxo Bacitracina",
       "composicion": "Discos con 0.04 U (discos A) de bacitracina.",
-      "fundamento": "Diferencia estreptococos beta-hemolíticos del Grupo A (<em>Streptococcus pyogenes</em>, sensibles) de otros estreptococos beta-hemolíticos (resistentes).",
+      "fundamento": "Diferencia estreptococos \u03B2-hemolíticos del Grupo A, sensibles, (<em>Streptococcus pyogenes</em>) de otros estreptococos \u03B2-hemolíticos resistentes (e.g. <em>Streptococcus agalactiae</em>).",
       "condiciones_crecimiento": "35-37°C, atmósfera con 5% de CO2, 18-24 horas en agar sangre.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
@@ -808,7 +808,7 @@
     {
       "nombre": "Prueba de Optoquina",
       "composicion": "Discos impregnados con 5 µg de clorhidrato de etilhidrocupreína (Optoquina o Taxo P).",
-      "fundamento": "Interfiere con la ATPasa e inhibe el crecimiento. Diferencia <em>Streptococcus pneumoniae</em> (sensible) de otros estreptococos alfa-hemolíticos (viridans, resistentes).",
+      "fundamento": "Interfiere con la ATPasa e inhibe el crecimiento. Diferencia <em>Streptococcus pneumoniae</em> (sensible) de otros estreptococos \u03B1-hemolíticos resistentes(e.g. viridans).",
       "condiciones_crecimiento": "35-37°C, 5-10% CO2, 18-24 horas en agar sangre. Se pueden utilizar discos de 6 y 10 mm.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
@@ -854,7 +854,7 @@
     },
     {
       "nombre": "Tolerancia a Telurito de Potasio",
-      "composicion": "Medio base (e.g. agar infusión cerebro corazón o agar Mueller-Hinton) suplementado con telurito de potasio (generalmente al 0.04%- 0.05%).",
+      "composicion": "Medio base (e.g. agar infusión cerebro corazón o agar Müeller-Hinton) suplementado con telurito de potasio (generalmente al 0.04%- 0.05%).",
       "fundamento": "Evalúa la capacidad del microorganismo de crecer en presencia de telurito (agente selectivo) y reducirlo a telurio metálico intracelular, ennegreciendo las colonias (e.g. <em>Corynebacterium diphtheriae</em>, <em>Enterococcus faecalis</em>).",
       "condiciones_crecimiento": "35-37°C aerobiosis, 24-48 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
@@ -864,13 +864,14 @@
       ],
       "imagenes": {
         "sin_inocular": "/fotos/telurito_base.png",
-        "positivo": "/fotos/telurito_positivo.png"
+        "positivo": "/fotos/telurito_positivo.png",
+        "Positivo en tubo":"/fotos/telurito_positivo_tubo.png"
       }
     },
     {
       "nombre": "Utilización de Arabinosa",
       "composicion": "Medio base de Utilización (e.g. Rojo de Fenol o Caldo Base) + L-Arabinosa 1%.",
-      "fundamento": "Determina si la bacteria posee las enzimas necesarias para internalizar y utilizar la arabinosa, produciendo ácidos.",
+      "fundamento": "Determina si la bacteria posee las enzimas necesarias para internalizar y utilizar la arabinosa, produciendo ácidos (e.g. <em>Enterococcus faecium</em>).",
       "condiciones_crecimiento": "35-37°C, aerobiosis, 18-24 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
@@ -900,9 +901,9 @@
       }
     },
     {
-      "nombre": "Prueba de CAMP (S. aureus y R. equi)",
-      "composicion": "Placa de agar sangre de carnero al 5%. Cepa beta-hemolisina positiva de <em>Staphylococcus aureus</em> o <em>Rhodococcus equi</em>.",
-      "fundamento": "El factor CAMP (proteína extracelular difusible) sinergiza con la beta-lisina del <em>S. aureus</em> para producir lisis aumentada de eritrocitos (para <em>Streptococcus agalactie</em>, o estrepcoco del grupo B). Con R. equi, se utiliza para identificar y diferencias especies de <em>Listeria</em>.",
+      "nombre": "Prueba de CAMP",
+      "composicion": "Placa de agar sangre de carnero al 5%. Cepa \u03B2-hemolisina positiva de <em>Staphylococcus aureus</em> o <em>Rhodococcus equi</em>.",
+      "fundamento": "El factor CAMP (proteína extracelular difusible) sinergiza con la \u03B2-lisina del <em>S. aureus</em> para producir lisis aumentada de eritrocitos (para <em>Streptococcus agalactie</em>, o estrepcoco del grupo B). Con <em>R. equi</em>, se utiliza para identificar y diferencias especies de <em>Listeria</em>.",
       "condiciones_crecimiento": "35-37°C, atmósfera aerobia (o CO2 si es necesario), 18-24 horas.",
       "reactivos_metodologia": "Estría recta de la cepa indicadora (<em>S. aureus</em> o <em>R. equi</em>). Estría perpendicular del problema, sin que se toquen (2 mm de separación).",
       "interpretacion": [
@@ -921,9 +922,9 @@
     {
       "nombre": "Hidrólisis de Hipurato",
       "composicion": "Caldo con 1% de Hipurato de Sodio.",
-      "fundamento": "Detecta la enzima hipuricasa, que hidroliza el hipurato en glicina y ácido benzoico. Útil para <em>Streptococcus agalactiae</em>, <em>Campylobacter jejuni</em>, <em>Gardnerella vaginalis</em>.",
+      "fundamento": "Detecta la enzima hipuricasa, que hidroliza el hipurato en glicina y ácido benzoico. Algunos ejemplos son <em>Streptococcus agalactiae</em>, <em>Campylobacter jejuni</em>, <em>Gardnerella vaginalis</em>.",
       "condiciones_crecimiento": "35-37°C en aerobiosis por 24 h.",
-      "reactivos_metodologia": "Añadir reactivo de ninhidrina (detecta glicina) o cloruro férrico (detecta ácido benzoico) tras la incubación. Metodología ninhidrina: Añadir 0.2 mL del reactivo, reincubar 10-15 min.",
+      "reactivos_metodologia": "Añadir reactivo de ninhidrina (detecta glicina) o cloruro férrico (detecta ácido benzoico) tras la incubación. Metodología Ninhidrina: Añadir 0.2 mL del reactivo, reincubar 10-15 min.",
       "interpretacion": [
         "Positivo: Desarrollo de color púrpura oscuro/azul profundo (con ninhidrina) o precipitado persistente (con cloruro férrico).",
         "Negativo: Incoloro/ligeramente amarillo."
@@ -975,7 +976,7 @@
       "composicion": "Peptona, extracto de levadura, glucosa (0.1%), L-lisina (1%), citrato férrico de amonio, tiosulfato de sodio, púrpura de bromocresol.",
       "fundamento": "Diferencia microorganismos que descarboxilan o desaminan la lisina y producen H2S. La descarboxilación ocurre en anaerobiosis (fondo) alcalinizando el medio; la desaminación en aerobiosis (pico) reacciona con el hierro produciendo un color rojo.",
       "condiciones_crecimiento": "35-37°C, aerobiosis, 18-24 horas.",
-      "reactivos_metodologia": "Siembra por picadura y estría. Tubo cerrado con tapa floja.",
+      "reactivos_metodologia": "Siembra por picadura profunda y estría en la superficie. No requiere reactivos adicionales.",
       "interpretacion": [
         "Pico púrpura / Fondo púrpura (K/K): Descarboxilación (+).",
         "Pico rojo / Fondo amarillo (R/A): Desaminación (+),  (e.g. <em>Proteus</em>, <em>Providencia</em>, <em>Morganella</em>).",
@@ -992,7 +993,7 @@
       "composicion": "Peptona tamponada (polipeptona), glucosa, fosfato dipotásico.",
       "fundamento": "RM: Detecta la Utilización ácido-mixta que produce y mantiene un pH 4.4. VP: Detecta la vía butilenglicólica (producción de acetoína / diacetilo). Nota sobre temperatura: A 25°C es crítico para algunas especies de <em>Yersinia</em> o <em>Hafnia</em> que son VP positivas a 25°C pero negativas a 37°C.",
       "condiciones_crecimiento": "25°C y 35-37°C, aerobiosis, 24-48 horas (hasta 5 días).",
-      "reactivos_metodologia": "Dividir el caldo en dos alícuotas. Para RM: Añadir 3-4 gotas de indicador Rojo de Metilo. Para VP: Añadir 0.2 mL de KOH al 40% (Reactivo A) y 0.6 mL de alfa-naftol (Reactivo B). Agitar bien y esperar 15-30 min.",
+      "reactivos_metodologia": "Para RM: Añadir 3-4 gotas de indicador Rojo de Metilo. Para VP: Añadir 0.2 mL de KOH al 40% (Reactivo A) y 0.6 mL de \u03B1-naftol al 5% (Reactivo B). Agitar bien y esperar 15-30 min.",
       "interpretacion": [
         "RM Positivo: Rojo brillante. Negativo: Amarillo.",
         "VP Positivo: Anillo o superficie rojo rosado/carmín. Negativo: Amarillo/cobre."
@@ -1007,9 +1008,9 @@
       "composicion": "Caldo nutritivo con nitrato de potasio (0.1%), y una campana de Durham invertida en el tubo.",
       "fundamento": "Detecta la enzima nitrato reductasa, que reduce nitratos a nitritos, y en algunos casos, hasta gas nitrógeno.",
       "condiciones_crecimiento": "35-37°C, aerobiosis (la campana crea un ambiente microaerófilo dentro), 24-48 horas.",
-      "reactivos_metodologia": "Añadir Reactivo A (ácido sulfanílico) y Reactivo B (alfa-naftilamina). Si no hay color tras 2-3 min, añadir una pizca de polvo de zinc.",
+      "reactivos_metodologia": "Añadir Reactivo A (ácido sulfanílico) y Reactivo B (\u03B1-naftilamina). Si no hay color tras 2-3 min, añadir una pizca de polvo de zinc.",
       "interpretacion": [
-        "Positivo (reducción a nitrito): Rojo tras añadir A y B.",
+        "Positivo (reducción a nitrito): Rojo tras añadir A (ácido sulfanílico) y B (\u03B1-naftilamina).",
         "Positivo (reducción a gas): Burbuja en la campana de Durham (y no cambia a rojo con Zinc).",
         "Negativo: Se vuelve rojo SOLAMENTE después de añadir zinc (el Zinc redujo el nitrato residual)."
       ],
@@ -1026,7 +1027,7 @@
       "condiciones_crecimiento": "Medio de Löwenstein-Jensen o Middlebrook, 35-37 °C, hasta 6-8 semanas. Para luz: Exponer cultivo joven a luz intensa 1-2 horas y reincubar.",
       "reactivos_metodologia": "Para Niacina se añade 1 mL de Agua Destilada al medio, se deja reposar de forma horizontal por 1 hora. Posteriormente se drena el líquido a un tubo limpio.",
       "interpretacion": [
-        "Niacina Positiva: Líquido amarillo.",
+        "Niacina Positiva: Líquido amarillo, solo positivo para <em>M. tuberculosis</em>.",
         "Fotocromogenicidad Positiva: Colonias viran a amarillo/naranja tras exposición a la luz (e.g. <em>M. kansasii</em>)."
       ],
       "imagenes": {
@@ -1038,7 +1039,7 @@
       "composicion": "Peptonas, extracto de levadura, L-ornitina, glucosa, púrpura de bromocresol, agar (semisólido).",
       "fundamento": "Medio múltiple que evalúa movilidad (agar semisólido), producción de indol a partir de triptófano en las peptonas, y descarboxilación de la ornitina.",
       "condiciones_crecimiento": "35-37°C, aerobiosis, 18-24 horas.",
-      "reactivos_metodologia": "Añadir 3-4 gotas de reactivo de Kovac sobre la superficie tras leer movilidad y ornitina.",
+      "reactivos_metodologia": "Añadir 3-4 gotas de reactivo de Kovacs sobre la superficie tras leer movilidad y ornitina.",
       "interpretacion": [
         "Movilidad (+): Turbidez difusa.",
         "Ornitina (+): Fondo púrpura (K). Negativo: Amarillo (A).",
@@ -1082,9 +1083,9 @@
       }
     },
     {
-      "nombre": "Base de Möeller (Arginina Deshidrolasa, Ornitina Descarboxilasa, Lisina Descarboxilasa)",
+      "nombre": "Base de Moeller (Arginina Deshidrolasa, Ornitina Descarboxilasa, Lisina Descarboxilasa)",
       "composicion": "Base de peptona, extracto de carne, glucosa (0.05%), piridoxal, púrpura de bromocresol, rojo de cresol. Se suplementa con 1% de L-Arginina, L-Ornitina o L-Lisina.",
-      "fundamento": "Determina descarboxilasas o dihidrolasas. Las bacterias utilizan la glucosa, el medio se acidifica (amarillo), lo cual activa las enzimas. La descarboxilación del aminoácido produce aminas alcalinas que viran el medio nuevamente a púrpura.",
+      "fundamento": "Determina descarboxilasas o dihidrolasas. Las bacterias utilizan la glucosa, el medio se acidifica (amarillo), lo cual activa las enzimas. La descarboxilación del aminoácido produce aminas alcalinas que viran el medio nuevamente a púrpura, en el caso de la Lisina es cadeverina y en el caso de la Ornitina es putrescina. La Arginina es hidrolizada a Ornitina y luego se convierte en putrescina.",
       "condiciones_crecimiento": "35-37°C anaerobiosis estricta requerida (cubrir tubos con 1 cm de aceite mineral estéril), 24-48 horas.",
       "reactivos_metodologia": "Aceite mineral antes de incubar. No reactivos post-incubación.",
       "interpretacion": [
@@ -1114,7 +1115,7 @@
       "nombre": "Vibriostático O/129 (10 μg y 150 μg)",
       "composicion": "Discos de papel con el compuesto O/129 (fosfato de 2,4-diamino-6,7-diisopropilpteridina). ",
       "fundamento": "Diferencia el género <em>Vibrio</em> (generalmente sensibles) de <em>Aeromonas</em> y otras enterobacterias (resistentes).",
-      "condiciones_crecimiento": "35-37°C, aerobiosis, 18-24 horas en placas de agar Mueller-Hinton o agar sangre.",
+      "condiciones_crecimiento": "35-37°C, aerobiosis, 18-24 horas en placas de agar Müeller-Hinton o agar sangre.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
         "Sensible: Presencia de cualquier halo de inhibición.",
@@ -1131,7 +1132,7 @@
       "composicion": "Sulfuro, Indol, Movilidad. Contiene peptona rica en triptófano, tiosulfato de sodio, hierro férrico, agar semisólido.",
       "fundamento": "Detecta la triptofanasa que hidroliza el triptófano a indol. Además, detecta H2S y movilidad.",
       "condiciones_crecimiento": "35-37°C aerobiosis, 18-24 horas.",
-      "reactivos_metodologia": "Añadir reactivo de Kovac o Ehrlich tras leer movilidad e H2S.",
+      "reactivos_metodologia": "Añadir reactivo de Kovacs o Ehrlich tras leer movilidad e H2S.",
       "interpretacion": [
         "Positivo para Indol: Anillo superficial rojo cereza o fucsia.",
         "Negativo para Indol: Anillo incoloro o amarillo pálido.",
@@ -1152,8 +1153,7 @@
         "Rosa/Rojo: Utilización de Lactosa, Ácido",
         "Azul/Púrpura: Digestión de Caseína, Alcalino",
         "Blanco en el fondo: Reducción del Tornasol",
-        "Coagulación: Formación de coágulo sólido ",
-        "Peptonización: Medio translúcido/acuoso y parduzco (destrucción de las proteínas de la leche) "
+        "Peptonización: Medio translúcido/acuoso y parduzco (destrucción de las proteínas de la leche)"
       ],
       "imagenes": {
         "Alcalinización Positiva": "/fotos/lechetornasolada_positivo.png",
@@ -1161,11 +1161,11 @@
       }
     },
     {
-      "nombre": "Requerimiento de Factores X y V (Satelitismo con S. aureus)",
-      "composicion": "Agar Tripticasa Soya (TSA) o Gelosa Sanre y Cepa de S. aureus.",
+      "nombre": "Requerimiento de Factores X y V (Satelitismo)",
+      "composicion": "Agar Tripticasa Soya (TSA) o Gelosa Sanre y Cepa de <em>S. aureus</em>.",
       "fundamento": "Especies como <em>Haemophilus influenzae</em> requieren factor X (hemina) y V (NAD) para crecer. El agar sangre de carnero provee factor X, pero las NADasas destruyen el factor V libre. <em>S. aureus</em> produce NAD como subproducto, proveyendo el factor V necesario a su alrededor (satelitismo).",
       "condiciones_crecimiento": "35-37°C, 5% CO2, 18-24 horas. ",
-      "reactivos_metodologia": "Inocular toda la placa con el problema. Trazar una estría única de S. aureus. En TSA se puede hacer lo anterior solo en la mitad de la placa y en la otra mitad colocar un disco adicionado de ambos factores.",
+      "reactivos_metodologia": "Inocular toda la placa con el problema. Trazar una estría única de <em>S. aureus</em>. En TSA se puede hacer lo anterior solo en la mitad de la placa y en la otra mitad colocar un disco adicionado de ambos factores.",
       "interpretacion": [
         "Requerimiento de ambos factores: Crecimiento de colonias exclusivamente alrededor de la estría de <em>S. aureus</em> en Gelosa Sangre o en TSA solamente alrededor del disco suplementado.",
         "Requerimiento de Factor V: Crecimiento de colonias exclusivamente alredeor de la estría de <em>S. aureus</em> en TSA."
@@ -1179,11 +1179,11 @@
     {
       "nombre": "Prueba de Porfirina (Ácido δ-aminolevulínico, ALA)",
       "composicion": "Caldo con clorhidrato de ácido delta-aminolevulínico, sulfato de magnesio y fosfatos.",
-      "fundamento": "Determina si Haemophilus spp. posee enzimas para sintetizar sus propias porfirinas (factor X) a partir del ALA. Las cepas que no requieren factor X son positivas.",
+      "fundamento": "Determina si <emHaemophilus</em> spp. posee enzimas para sintetizar sus propias porfirinas (factor X) a partir del ALA. Las cepas que no requieren factor X son positivas.",
       "condiciones_crecimiento": "35-37°C, aerobiosis, 2 a 4 horas o toda la noche. ",
-      "reactivos_metodologia": "Exponer el tubo a luz ultravioleta (lámpara de Wood, 360 nm) o añadir reactivo de Kovac modificado para detectar porfobilinógeno.",
+      "reactivos_metodologia": "Exponer el tubo a luz ultravioleta (lámpara de Wood, 360 nm) o añadir reactivo de Kovacs modificado para detectar porfobilinógeno.",
       "interpretacion": [
-        "Positivo: Fluorescencia roja bajo luz UV (o fase acuosa roja con Kovac).",
+        "Positivo: Fluorescencia roja bajo luz UV (o fase acuosa roja con Kovacs).",
         "Negativo: Sin fluorescencia roja (requiere factor X exógeno)."
       ],
       "imagenes": {
@@ -1196,7 +1196,7 @@
       "composicion": "Peróxido de hidrógeno al 30%.",
       "fundamento": "Es una prueba de catalasa hiperconcentrada. Útil para diferenciar presuntivamente <em>Neisseria gonorrhoeae</em> (reacción violenta y explosiva) de <em>Neisseria meningitidis</em>.",
       "condiciones_crecimiento": "Realizada sobre colonias crecidas en agar chocolate o Thayer-Martin (18-24 h, 5% CO2).",
-      "reactivos_metodologia": "Peróxido de hidrógeno al 30%. Aplicar sobre una colonia en un portaobjetos.",
+      "reactivos_metodologia": "Peróxido de hidrógeno al 30%. Aplicar sobre una colonia en un portaobjetos o en la placa/tubo directamente.",
       "interpretacion": [
         "Positivo (4+): Efervescencia vigorosa inmediata, en forma de espuma espesa.",
         "Negativo o débil: Burbujeo lento o nulo."
@@ -1215,7 +1215,7 @@
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
         "Lecitinasa (+): Halo blanco opaco, lechoso e insoluble alrededor y debajo de las colonias (e.g. <em>Clostridium perfringens</em>).",
-        "Lipasa (+): Pátina iridiscente (como aceite en agua) o brillo perlado sobre la superficie de la colonia y el agar circundante."
+        "Lipasa (+):  Capa iridiscente (como aceite en agua) o brillo perlado sobre la superficie de la colonia y el agar circundante."
       ],
       "imagenes": {
         "Sin_inocular": "/fotos/ey_base.png",
@@ -1242,7 +1242,7 @@
     {
       "nombre": "Desarrollo a Diferentes Concentraciones de Colorantes (Fucsina Básica 20 µG y Tionina 20/40 μG)",
       "composicion": "Medio base de tripticasa soya o Brucella suplementado con fucsina básica (20 µg/mL) y tionina (20 y 40 µg/mL).",
-      "fundamento": "Clasificación bio-tipificadora de especies de Brucella. La toxicidad de estos colorantes a diferentes concentraciones inhibe especies o biotipos específicos.",
+      "fundamento": "Clasificación bio-tipificadora de especies de <em>Brucella</em>. La toxicidad de estos colorantes a diferentes concentraciones inhibe especies o biotipos específicos.",
       "condiciones_crecimiento": "35-37°C atmósfera con 5-10% de CO2, 3 a 7 días.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
@@ -1279,7 +1279,7 @@
     },
     {
       "nombre": "Géneros <em>Pseudomonas</em>, <em>Burkholderia</em>, <em>Stenotrophomonas</em> y <em>Acinetobacter</em>",
-      "claves": ["Sangre", "MacConkey", "Cetrimida", "Catalasa", "Oxidasa", "TSI", "Hugh y Leifson", "Mueller", "Moeller", "Nitratos", "Citrato", "DNasa", "Xilosa"]
+      "claves": ["Sangre", "MacConkey", "Cetrimida", "Catalasa", "Oxidasa", "TSI", "Hugh y Leifson", "Müeller", "Moeller", "Nitratos", "Citrato", "DNasa", "Xilosa"]
     },
     {
       "nombre": "Género <em>Brucella</em>",

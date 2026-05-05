@@ -312,6 +312,8 @@ function App() {
               
               <p style={{ marginBottom: '0.8rem' }}><strong>Fundamento:</strong> <span dangerouslySetInnerHTML={{ __html: itemSeleccionado.fundamento }} /></p>
               
+              {itemSeleccionado.reactivos_metodologia && <p style={{ marginBottom: '0.8rem' }}><strong>Reactivos / Metodología:</strong> <span dangerouslySetInnerHTML={{ __html: itemSeleccionado.reactivos_metodologia }} /></p>}
+
               {itemSeleccionado.interpretacion && (
                 <>
                   <h3 style={{ marginTop: '1rem', marginBottom: '0.5rem', color: 'var(--color-acento)' }}>Interpretación:</h3>
