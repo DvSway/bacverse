@@ -113,7 +113,7 @@
     {
       "nombre": "Gelosa MacConkey (Agar MacConkey)",
       "composicion": "Peptona (carne y caseína), lactosa, sales biliares, cristal violeta, cloruro de sodio, rojo neutro (indicador de pH) y agar.",
-      "fundamento": "Medio selectivo y diferencial para bacilos gramnegativos. Las sales biliares y el cristal violeta inhiben el crecimiento de bacterias grampositivas. La lactosa y el rojo neutro permiten diferenciar las bacterias que utilizan de lactosa de las no que utilizan, según la disminución del pH.",
+      "fundamento": "Medio selectivo y diferencial para bacilos gram negativos. Las sales biliares y el cristal violeta inhiben el crecimiento de bacterias gram positivas. La lactosa y el rojo neutro permiten diferenciar las bacterias que utilizan de lactosa de las no que utilizan, según la disminución del pH.",
       "condiciones_crecimiento": "35-37°C en aerobiosis por 18 a 24 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
@@ -235,7 +235,7 @@
     {
       "nombre": "Gelosa Verde Brillante (Agar Verde Brillante)",
       "composicion": "Peptonas, extracto de levadura, lactosa, sacarosa, cloruro de sodio, rojo fenol, verde brillante y agar.",
-      "fundamento": "Medio altamente selectivo para el aislamiento de <em>Salmonella</em> (excepto serovariedad Typhi). El verde brillante inhibe a la microbiota gram positiva y a la mayoría de los bacilos gramnegativos, incluidos muchos miembros de la microbiota fecal normal. La lactosa, sacarosa y el rojo fenol sirven como sistema diferencial.",
+      "fundamento": "Medio altamente selectivo para el aislamiento de <em>Salmonella</em> (excepto serovariedad Typhi). El verde brillante inhibe a la microbiota gram positiva y a la mayoría de los bacilos gram negativos, incluidos muchos miembros de la microbiota fecal normal. La lactosa, sacarosa y el rojo fenol sirven como sistema diferencial.",
       "condiciones_crecimiento": "35-37°C en aerobiosis por 18 a 24 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
@@ -250,7 +250,7 @@
     {
       "nombre": "Gelosa EMB (Agar Eosina Azul de Metileno)",
       "composicion": "Peptona, lactosa, sacarosa, fosfato dipotásico, eosina, azul de metileno y agar.",
-      "fundamento": "Medio ligeramente selectivo y diferencial. Los colorantes eosina y azul de metileno inhiben parcialmente a las bacterias grampositivas y actúan como indicadores de pH ante la Utilización de lactosa o sacarosa por parte de enterobacterias.",
+      "fundamento": "Medio ligeramente selectivo y diferencial. Los colorantes eosina y azul de metileno inhiben parcialmente a las bacterias gram positivas y actúan como indicadores de pH ante la Utilización de lactosa o sacarosa por parte de enterobacterias.",
       "condiciones_crecimiento": "35-37°C en aerobiosis por 18 a 24 horas.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
@@ -530,7 +530,7 @@
     {
       "nombre": "Gelosa Sulfito de Bismuto (Agar Sulfito de Bismuto)",
       "composicion": "Peptona, extracto de carne, dextrosa, sulfato ferroso, indicador sulfito de bismuto, fosfato disódico, verde brillante y agar.",
-      "fundamento": "Medio altamente selectivo y diferencial modificado por Wilson y Blair para aislar <em>Salmonella enterica</em> serovar Typhi. El sulfito de bismuto y el verde brillante inhiben drásticamente el crecimiento de grampositivos y miembros de la microbiota entérica (incluyendo otros coliformes). <em>Salmonella</em> Typhi reduce el sulfito a sulfuro de hidrógeno, el cual reacciona con el hierro dando un precipitado metálico negro.",
+      "fundamento": "Medio altamente selectivo y diferencial modificado por Wilson y Blair para aislar <em>Salmonella enterica</em> serovar Typhi. El sulfito de bismuto y el verde brillante inhiben drásticamente el crecimiento de gram positivos y miembros de la microbiota entérica (incluyendo otros coliformes). <em>Salmonella</em> Typhi reduce el sulfito a sulfuro de hidrógeno, el cual reacciona con el hierro dando un precipitado metálico negro.",
       "condiciones_crecimiento": "35-37°C en aerobiosis durante 48 horas (es crucial este tiempo por el alto nivel inhibitorio).",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
