@@ -808,7 +808,7 @@
     {
       "nombre": "Prueba de Optoquina",
       "composicion": "Discos impregnados con 5 µg de clorhidrato de etilhidrocupreína (Optoquina o Taxo P).",
-      "fundamento": "Interfiere con la ATPasa e inhibe el crecimiento. Diferencia <em>Streptococcus pneumoniae</em> (sensible) de otros estreptococos \u03B1-hemolíticos resistentes(e.g. viridans).",
+      "fundamento": "Interfiere con la ATPasa e inhibe el crecimiento. Diferencia <em>Streptococcus pneumoniae</em> (sensible) de otros estreptococos \u03B1-hemolíticos resistentes (e.g. viridans).",
       "condiciones_crecimiento": "35-37°C, 5-10% CO2, 18-24 horas en agar sangre. Se pueden utilizar discos de 6 y 10 mm.",
       "reactivos_metodologia": "No requiere reactivos adicionales.",
       "interpretacion": [
@@ -903,11 +903,11 @@
     {
       "nombre": "Prueba de CAMP",
       "composicion": "Placa de agar sangre de carnero al 5%. Cepa \u03B2-hemolisina positiva de <em>Staphylococcus aureus</em> o <em>Rhodococcus equi</em>.",
-      "fundamento": "El factor CAMP (proteína extracelular difusible) sinergiza con la \u03B2-lisina del <em>S. aureus</em> para producir lisis aumentada de eritrocitos (para <em>Streptococcus agalactie</em>, o estrepcoco del grupo B). Con <em>R. equi</em>, se utiliza para identificar y diferencias especies de <em>Listeria</em>.",
+      "fundamento": "El factor CAMP (proteína extracelular difusible) sinergiza con la \u03B2-lisina del <em>S. aureus</em> para producir lisis aumentada de eritrocitos (para <em>Streptococcus agalactiae</em>, o estrepcoco del grupo B). Con <em>R. equi</em>, se utiliza para identificar y diferencias especies de <em>Listeria</em>.",
       "condiciones_crecimiento": "35-37°C, atmósfera aerobia (o CO2 si es necesario), 18-24 horas.",
       "reactivos_metodologia": "Estría recta de la cepa indicadora (<em>S. aureus</em> o <em>R. equi</em>). Estría perpendicular del problema, sin que se toquen (2 mm de separación).",
       "interpretacion": [
-        "Positivo: Formación de una zona de hemólisis en forma de \"punta de flecha\" o media luna en la intersección en el caso de <em>S. agalactie</em>.",
+        "Positivo: Formación de una zona de hemólisis en forma de \"punta de flecha\" o media luna en la intersección en el caso de <em>S. agalactiae</em>.",
         "Positivo: Formación de una zona de hemólisis en forma de \"pala\" en la intersección, en el caso de <em>L. ivanovii</em>.",
         "Positivo: Formación de una zona de hemólisis en forma de \"cabeza de cerillo\" en la intersección, en el caso de <em>L. monocytogenes</em>.",
         "Negativo: Ausencia de sinergia hemolítica."
