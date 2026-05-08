@@ -1042,7 +1042,7 @@
       "reactivos_metodologia": "Añadir 3-4 gotas de reactivo de Kovacs sobre la superficie tras leer movilidad y ornitina.",
       "interpretacion": [
         "Movilidad (+): Turbidez difusa.",
-        "Ornitina (+): Fondo púrpura (K). Negativo: Amarillo (A).",
+        "Ornitina (+): Fondo púrpura. Negativo: Amarillo.",
         "Indol (+): Anillo rojo tras añadir reactivo de Kovacs."
       ],
       "imagenes": {
@@ -1085,7 +1085,7 @@
     {
       "nombre": "Base de Moeller (Arginina Deshidrolasa, Ornitina Descarboxilasa, Lisina Descarboxilasa)",
       "composicion": "Base de peptona, extracto de carne, glucosa (0.05%), piridoxal, púrpura de bromocresol, rojo de cresol. Se suplementa con 1% de L-Arginina, L-Ornitina o L-Lisina.",
-      "fundamento": "Determina descarboxilasas o dihidrolasas. Las bacterias utilizan la glucosa, el medio se acidifica (amarillo), lo cual activa las enzimas. La descarboxilación del aminoácido produce aminas alcalinas que viran el medio nuevamente a púrpura, en el caso de la Lisina es cadeverina y en el caso de la Ornitina es putrescina. La Arginina es hidrolizada a Ornitina y luego se convierte en putrescina.",
+      "fundamento": "Determina descarboxilasas o dihidrolasas. Las bacterias utilizan la glucosa, el medio se acidifica (amarillo), lo cual activa las enzimas. La descarboxilación del aminoácido produce aminas alcalinas que viran el medio nuevamente a púrpura, en el caso de la Lisina es cadaverina y en el caso de la Ornitina es putrescina. La Arginina es hidrolizada a Ornitina y luego se convierte en putrescina.",
       "condiciones_crecimiento": "35-37°C anaerobiosis estricta requerida (cubrir tubos con 1 cm de aceite mineral estéril), 24-48 horas.",
       "reactivos_metodologia": "Aceite mineral antes de incubar. No reactivos post-incubación.",
       "interpretacion": [
