@@ -1162,7 +1162,7 @@
     },
     {
       "nombre": "Requerimiento de Factores X y V (Satelitismo)",
-      "composicion": "Agar Tripticasa Soya (TSA) o Gelosa Sanre y Cepa de <em>S. aureus</em>.",
+      "composicion": "Agar Tripticasa Soya (TSA) o Gelosa Sangre y Cepa de <em>S. aureus</em>.",
       "fundamento": "Especies como <em>Haemophilus influenzae</em> requieren factor X (hemina) y V (NAD) para crecer. El agar sangre de carnero provee factor X, pero las NADasas destruyen el factor V libre. <em>S. aureus</em> produce NAD como subproducto, proveyendo el factor V necesario a su alrededor (satelitismo).",
       "condiciones_crecimiento": "35-37°C, 5% CO2, 18-24 horas. ",
       "reactivos_metodologia": "Inocular toda la placa con el problema. Trazar una estría única de <em>S. aureus</em>. En TSA se puede hacer lo anterior solo en la mitad de la placa y en la otra mitad colocar un disco adicionado de ambos factores.",
@@ -1179,7 +1179,7 @@
     {
       "nombre": "Prueba de Porfirina (Ácido δ-aminolevulínico, ALA)",
       "composicion": "Caldo con clorhidrato de ácido delta-aminolevulínico, sulfato de magnesio y fosfatos.",
-      "fundamento": "Determina si <emHaemophilus</em> spp. posee enzimas para sintetizar sus propias porfirinas (factor X) a partir del ALA. Las cepas que no requieren factor X son positivas.",
+      "fundamento": "Determina si una especie de <em>Haemophilus</em> posee enzimas para sintetizar sus propias porfirinas (factor X) a partir del ALA. Las cepas que no requieren factor X son positivas.",
       "condiciones_crecimiento": "35-37°C, aerobiosis, 2 a 4 horas o toda la noche. ",
       "reactivos_metodologia": "Exponer el tubo a luz ultravioleta (lámpara de Wood, 360 nm) o añadir reactivo de Kovacs modificado para detectar porfobilinógeno.",
       "interpretacion": [
