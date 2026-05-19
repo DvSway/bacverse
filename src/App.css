@@ -606,3 +606,40 @@ header {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* =========================================
+   ANIMACIÓN DE CARGA PARA IMÁGENES (OPTIMIZACIÓN)
+========================================= */
+img {
+  animation: aparecerSuave 0.4s ease-in;
+  transition: opacity 0.4s ease-in;
+}
+
+@keyframes aparecerSuave {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Un fondo sutil para que no se vea vacío mientras carga el WebP */
+.tarjeta-imagen-placeholder {
+  background-color: #e2e8f0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ANIMACIÓN SUAVE PARA EL CAMBIO DE PESTAÑAS */
+.fade-suave {
+  animation: aparecerPestaña 0.4s ease-out forwards;
+}
+
+@keyframes aparecerPestaña {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

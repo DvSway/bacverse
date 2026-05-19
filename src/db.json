@@ -104,10 +104,10 @@
         "Hemólisis Gamma (\u03B3): Ausencia de halo; no hay lisis celular."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/sangre_base.png",
-        "hemólisis_alfa": "/fotos/sangre_alfa.png",
-        "hemólisis_beta": "/fotos/sangre_beta.png",
-        "hemólisis_gamma": "/fotos/sangre_gamma.png"
+        "sin_sembrar": "/fotos/sangre_base.webp",
+        "hemólisis_alfa": "/fotos/sangre_alfa.webp",
+        "hemólisis_beta": "/fotos/sangre_beta.webp",
+        "hemólisis_gamma": "/fotos/sangre_gamma.webp"
       }
     },
     {
@@ -121,10 +121,10 @@
         "Negativo para Utilización de lactosa (Lac-): Colonias incoloras o transparentes."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/macconkey_base.png",
-        "lactosa_positiva": "/fotos/macconkey_positivo.png",
-        "lactosa_positiva_mucoide":"/fotos/macconkey_positivo_klebsiella.png",
-        "lactosa_negativa": "/fotos/macconkey_negativo.png"
+        "sin_sembrar": "/fotos/macconkey_base.webp",
+        "lactosa_positiva": "/fotos/macconkey_positivo.webp",
+        "lactosa_positiva_mucoide":"/fotos/macconkey_positivo_klebsiella.webp",
+        "lactosa_negativa": "/fotos/macconkey_negativo.webp"
       }
     },
     {
@@ -139,9 +139,9 @@
         "Sin crecimiento: Organismo inhibido por la alta concentración de NaCl."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/msa_base.png",
-        "manitol_positivo": "/fotos/msa_positivo.png",
-        "manitol_negativo": "/fotos/msa_negativo.png"
+        "sin_sembrar": "/fotos/msa_base.webp",
+        "manitol_positivo": "/fotos/msa_positivo.webp",
+        "manitol_negativo": "/fotos/msa_negativo.webp"
       }
     },
     {
@@ -155,8 +155,8 @@
         "Hidrólisis de gelatina (tras el reactivo): Un halo claro alrededor de las colonias indica hidrólisis positiva."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/s110_base.png",
-        "crecimiento": "/fotos/s110_crecimiento.png"
+        "sin_sembrar": "/fotos/s110_base.webp",
+        "crecimiento": "/fotos/s110_crecimiento.webp"
       }
     },
     {
@@ -170,7 +170,7 @@
         "Negativo: Caldo transparente, sin crecimiento."
       ],
       "imagenes": {
-        "sin_inocular": "/fotos/th_base.png"
+        "sin_inocular": "/fotos/th_base.webp"
       }
     },
     {
@@ -183,7 +183,7 @@
         "Medio líquido para biomasa; se evalúa por turbidez o se subcultiva/centrifuga para el aislamiento de antígenos parietales para serología de estreptococos."
       ],
       "imagenes": {
-        "sin_inocular": "/fotos/th_base.png"
+        "sin_inocular": "/fotos/th_base.webp"
       }
     },
     {
@@ -196,7 +196,7 @@
         "Se observan las características de las colonias y los tipos de hemólisis al igual que en un agar sangre estándar."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/casman_base.png"
+        "sin_sembrar": "/fotos/casman_base.webp"
       }
     },
     {
@@ -210,8 +210,8 @@
         "Ausencia de crecimiento a las 8 semanas: Cultivo negativo para micobacterias."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/LJ_base.png",
-        "desarrollo": "/fotos/LJ_positivo.png"
+        "sin_sembrar": "/fotos/LJ_base.webp",
+        "desarrollo": "/fotos/LJ_positivo.webp"
       }
     },
     {
@@ -226,10 +226,10 @@
         "Coliformes (si logran crecer): Colonias rosadas o rojas (que utilizan de lactosa)."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/ss_base.png",
-        "lactosa_positiva": "/fotos/ss_lacpositivo.png",
-        "H2S positivo": "/fotos/ss_h2spositivo.png",
-        "H2S negativo": "/fotos/ss_h2snegativo.png"
+        "sin_sembrar": "/fotos/ss_base.webp",
+        "lactosa_positiva": "/fotos/ss_lacpositivo.webp",
+        "H2S positivo": "/fotos/ss_h2spositivo.webp",
+        "H2S negativo": "/fotos/ss_h2snegativo.webp"
       }
     },
     {
@@ -243,8 +243,8 @@
         "Organismos fermentadores (e.g. <em>E. coli</em>, <em>Klebsiella</em>): Colonias amarillo-verdosas rodeadas de un halo amarillo."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/vb_base.png",
-        "lactosa_positiva": "/fotos/vb_positivo.png"
+        "sin_sembrar": "/fotos/vb_base.webp",
+        "lactosa_positiva": "/fotos/vb_positivo.webp"
       }
     },
     {
@@ -259,9 +259,9 @@
         "No fermentadores: Colonias incoloras, translúcidas o color ámbar."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/emb_base.png",
-        "utiliza lactosa y sacarosa": "/fotos/emb_positivo.png",
-        "no_utiliza lactosa y sacarosa": "/fotos/emb_negativo.png"
+        "sin_sembrar": "/fotos/emb_base.webp",
+        "utiliza lactosa y sacarosa": "/fotos/emb_positivo.webp",
+        "no_utiliza lactosa y sacarosa": "/fotos/emb_negativo.webp"
       }
     },
     {
@@ -275,9 +275,9 @@
         "<em>Vibrio parahaemolyticus</em>: Colonias de color verde azulado o incoloras (no utilizan sacarosa)."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/tcbs_base.png",
-        "sacarosa_positiva": "/fotos/tcbs_positivo.png",
-        "sacarosa_negativa": "/fotos/tcbs_negativo.png"
+        "sin_sembrar": "/fotos/tcbs_base.webp",
+        "sacarosa_positiva": "/fotos/tcbs_positivo.webp",
+        "sacarosa_negativa": "/fotos/tcbs_negativo.webp"
       }
     },
     {
@@ -291,8 +291,8 @@
         "Crecimiento exclusivo en 6% u 8%: Bacterias halófilas que requieren alta presión osmótica (e.g. <em> Vibrio parahaemolyticus</em>)."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/gn_base.png",
-        "crecimiento": "/fotos/gn_positivo.png"
+        "sin_sembrar": "/fotos/gn_base.webp",
+        "crecimiento": "/fotos/gn_positivo.webp"
       }
     },
     {
@@ -305,8 +305,8 @@
         "Evaluación morfológica pura. Las colonias crecen sin ninguna diferenciación o selección de grupo."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/gn_base.png",
-        "crecimiento": "/fotos/gn_positivo.png"
+        "sin_sembrar": "/fotos/gn_base.webp",
+        "crecimiento": "/fotos/gn_positivo.webp"
       }
     },
     {
@@ -319,8 +319,8 @@
         "Positivo: Crecimiento de colonias típicamente verdes/azul verdosas con un olor dulce a uva/tortillas, fuertemente fluorescentes bajo luz UV."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/cetrimida_base.png",
-        "desarrollo": "/fotos/cetrimida_positivo.png"
+        "sin_sembrar": "/fotos/cetrimida_base.webp",
+        "desarrollo": "/fotos/cetrimida_positivo.webp"
       }
     },
     {
@@ -334,10 +334,10 @@
         "Negativo: El medio se torna opaco/turbio alrededor de la colonia (el DNA intacto precipita al contacto con el HCl)."
       ],
       "imagenes": {
-        "sin_inocular_Azul_de_Toluidina": "/fotos/dnase_basea.png",
-        "sin_inocular_Verde_de_Metilo": "/fotos/dnase_basev.png",
-        "positiva_Azul_de_Toluidina": "/fotos/dnase_positivoa.png",
-        "positiva_Verde_de_Metilo": "/fotos/dnase_positivov.png"
+        "sin_inocular_Azul_de_Toluidina": "/fotos/dnase_basea.webp",
+        "sin_inocular_Verde_de_Metilo": "/fotos/dnase_basev.webp",
+        "positiva_Azul_de_Toluidina": "/fotos/dnase_positivoa.webp",
+        "positiva_Verde_de_Metilo": "/fotos/dnase_positivov.webp"
       }
     },
     {
@@ -350,7 +350,7 @@
         "Medición del diámetro de los halos transparentes de inhibición de crecimiento, que se comparan con tablas estandarizadas para reportar a la cepa como Sensible, Intermedia o Resistente."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/mh_base.png"
+        "sin_sembrar": "/fotos/mh_base.webp"
       }
     },
     {
@@ -363,8 +363,8 @@
         "Sirve como control de viabilidad; evalúa características morfológicas generales de las colonias aisladas."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/tsa_base.png",
-        "desarrollo": "/fotos/tsa_positivo.png"
+        "sin_sembrar": "/fotos/tsa_base.webp",
+        "desarrollo": "/fotos/tsa_positivo.webp"
       }
     },
     {
@@ -377,8 +377,8 @@
         "Lectura de colonias según las características morfológicas del anaerobio o patógeno fastidioso cultivado."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/brucella_base.png",
-        "desarrollo": "/fotos/brucella_positivo.png"
+        "sin_sembrar": "/fotos/brucella_base.webp",
+        "desarrollo": "/fotos/brucella_positivo.webp"
       }
     },
     {
@@ -392,8 +392,8 @@
         "Negativo: La tira mantiene su color original blanco/crema."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/hígado_base.png",
-        "Positivo y Negativo":"/fotos/hígado_positivo.png"
+        "sin_sembrar": "/fotos/hígado_base.webp",
+        "Positivo y Negativo":"/fotos/hígado_positivo.webp"
       }
     },
     {
@@ -406,8 +406,8 @@
         "Verificación de características morfológicas; no provee información diferencial por sí solo."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/bhi_base.png",
-        "desarrollo": "/fotos/bhi_positivo.png"
+        "sin_sembrar": "/fotos/bhi_base.webp",
+        "desarrollo": "/fotos/bhi_positivo.webp"
       }
     },
     {
@@ -420,8 +420,8 @@
         "B. pertussis: Colonias pequeñas, brillantes, lisas, fuertemente convexas con un aspecto característico de \"gotas de mercurio\", acompañadas de una difusa zona de hemólisis."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/bordet_base.png",
-        "desarrollo": "/fotos/bordet_positivo.png"
+        "sin_sembrar": "/fotos/bordet_base.webp",
+        "desarrollo": "/fotos/bordet_positivo.webp"
       }
     },
     {
@@ -434,8 +434,8 @@
         "No aplica interpretación clínica diferencial sin suplementos; es el vehículo principal para microorganismos del género <em>Neisseria</em>."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/gc_base.png",
-        "desarrollo_exigentes": "/fotos/gc_positivo.png"
+        "sin_sembrar": "/fotos/gc_base.webp",
+        "desarrollo_exigentes": "/fotos/gc_positivo.webp"
       }
     },
     {
@@ -448,8 +448,8 @@
         "Colonias pequeñas, grisáceas, translúcidas a opacas sugieren fuertemente la presencia de <em>Neisseria</em> patógenas, dado el alto poder selectivo del medio."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/tm_base.png",
-        "desarrollo_exigentes": "/fotos/tm_positivo.png"
+        "sin_sembrar": "/fotos/tm_base.webp",
+        "desarrollo_exigentes": "/fotos/tm_positivo.webp"
       }      
     },
     {
@@ -462,8 +462,8 @@
         "Crecimiento abundante y grisáceo, con colonias grandes de <em>Haemophilus</em> spp. y <em>Neisseria</em> no patógenas. Por otro lado, las <em>Neisseria</em> patógenas son casi transparentes y con un tamaño máximo de 1 mm."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/gc_base.png",
-        "desarrollo_exigentes": "/fotos/gc_positivo.png"
+        "sin_sembrar": "/fotos/gc_base.webp",
+        "desarrollo_exigentes": "/fotos/gc_positivo.webp"
       }
     },
     {
@@ -476,8 +476,8 @@
         "Crecimiento de <em>Haemophilus influenzae</em>. En cepas encapsuladas (e.g. serovariedad B), se observan colonias mucosas con una marcada iridiscencia bajo iluminación en 90°."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/levinthal_base.png",
-        "desarrollo_exigentes": "/fotos/levinthal_positivo.png"
+        "sin_sembrar": "/fotos/levinthal_base.webp",
+        "desarrollo_exigentes": "/fotos/levinthal_positivo.webp"
       }
     },
     {
@@ -495,7 +495,7 @@
         "Para Indol Negativo: Formación de Anillo de Color Amarillo (Color del Reactivo)."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/tioglicolate_base.png"
+        "sin_sembrar": "/fotos/tioglicolate_base.webp"
       }
     },
     {
@@ -508,8 +508,8 @@
         "Crecimiento de colonias; se evalúa la morfología y pigmentación (e.g. colonias negras en <em>Prevotella melaninogenica</em>) y perfiles de hemólisis bajo anaerobiosis."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/sangrehm_base.png",
-        "desarrollo_anaerobios": "/fotos/sangrehm_positivo.png"
+        "sin_sembrar": "/fotos/sangrehm_base.webp",
+        "desarrollo_anaerobios": "/fotos/sangrehm_positivo.webp"
       }
     },
     {
@@ -523,8 +523,8 @@
         "Lipasa: Brillo perlado/iridiscente característico en la superficie de las colonias y en el agar adyacente (parecido a aceite sobre agua)."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/ey_base.png",
-        "desarrollo": "/fotos/ey_positivo.png"
+        "sin_sembrar": "/fotos/ey_base.webp",
+        "desarrollo": "/fotos/ey_positivo.webp"
       }
     },
     {
@@ -538,8 +538,8 @@
         "Otras <em>Salmonella</em> spp: Colonias negras a verdes."
       ],
       "imagenes": {
-        "sin_sembrar": "/fotos/bismuto_base.png",
-        "H2S positivo": "/fotos/bismuto_positivo.png"
+        "sin_sembrar": "/fotos/bismuto_base.webp",
+        "H2S positivo": "/fotos/bismuto_positivo.webp"
       }
     },
     {
@@ -553,7 +553,7 @@
         "Cepa proteolítica: Degradación, oscurecimiento y digestión de las partículas de carne (pudrición) desprendiendo un fuerte olor fétido sulfuroso."
       ],
       "imagenes": {
-        "sin_inocular": "/fotos/carnepicada_base.png"
+        "sin_inocular": "/fotos/carnepicada_base.webp"
       }
     },
     {
@@ -567,8 +567,8 @@
         "Negativo: Crecimiento (turbidez), sin cambio a color negro; o la falta de cambio se corrobora bajo luz UV (esculina intacta fluoresce azul pálido, la esculetina no)."
       ],
       "imagenes": {
-        "sin_inocular": "/fotos/cesculina_base.png",
-        "Resultados Positivos y Negativos con UV":"/fotos/esculina_anaerobios.png"
+        "sin_inocular": "/fotos/cesculina_base.webp",
+        "Resultados Positivos y Negativos con UV":"/fotos/esculina_anaerobios.webp"
       }
     },
     {
@@ -582,8 +582,8 @@
         "Negativo para Utilización de lactosa (Lac-): Colonias transparentes o azules."
       ],
       "imagenes": {
-        "lactosa_negativa":"/fotos/cled_negativo.png",
-        "lactosa_positiva":"/fotos/cled_positivo.png"
+        "lactosa_negativa":"/fotos/cled_negativo.webp",
+        "lactosa_positiva":"/fotos/cled_positivo.webp"
       }
     },
     {
@@ -605,16 +605,16 @@
         
       ],
       "imagenes": {
-        "resultados posibles":"/fotos/chromagar.png",
-        "<em>E. coli</em>":"/fotos/ecoli.png",
-        "<em>Enterococcus</em>":"/fotos/enterococcus.png",
-        "<em>Proteus</em>":"/fotos/proteus.png",
-        "<em>Klebsiella</em>, <em>Enterobacter</em>, <em>Serratia</em>":"/fotos/kes.png",
-        "<em>S. aureus</em>":"/fotos/saureus.png",
-        "<em>Citrobacter</em>":"/fotos/citrobacter.png",
-        "<em>S. saprophyticus</em>":"/fotos/saprophyticus.png",
-        "<em>Streptococcus agalactiae</em>":"/fotos/sagalactiae.png",
-        "<em>Pseudomonas aeruginosa</em>":"/fotos/pseudoaeru.png"
+        "resultados posibles":"/fotos/chromagar.webp",
+        "<em>E. coli</em>":"/fotos/ecoli.webp",
+        "<em>Enterococcus</em>":"/fotos/enterococcus.webp",
+        "<em>Proteus</em>":"/fotos/proteus.webp",
+        "<em>Klebsiella</em>, <em>Enterobacter</em>, <em>Serratia</em>":"/fotos/kes.webp",
+        "<em>S. aureus</em>":"/fotos/saureus.webp",
+        "<em>Citrobacter</em>":"/fotos/citrobacter.webp",
+        "<em>S. saprophyticus</em>":"/fotos/saprophyticus.webp",
+        "<em>Streptococcus agalactiae</em>":"/fotos/sagalactiae.webp",
+        "<em>Pseudomonas aeruginosa</em>":"/fotos/pseudoaeru.webp"
       }
     }
   ],
@@ -630,7 +630,7 @@
         "Negativo: Sin cambio de color."
       ],
       "imagenes": {
-        "positiva y negativa": "/fotos/oxidasa.png"
+        "positiva y negativa": "/fotos/oxidasa.webp"
       }
     },
     {
@@ -644,7 +644,7 @@
         "Negativo: Sin formación de burbujas."
       ],
       "imagenes": {
-        "positiva y negativa": "/fotos/catalasa.png"
+        "positiva y negativa": "/fotos/catalasa.webp"
       }
     },
     {
@@ -659,10 +659,10 @@
         "Inactivo (asacarolítico): Ambos tubos verdes o tubos color azul si utiliza las peptonas."
       ],
       "imagenes": {
-        "sin_inocular": "/fotos/of_base.png",
-        "oxidación": "/fotos/of_oxidativo.png",
-        "fermentación": "/fotos/of_fermentativo.png",
-        "Asacarolítico": "/fotos/of_asacarolíticos.png"
+        "sin_inocular": "/fotos/of_base.webp",
+        "oxidación": "/fotos/of_oxidativo.webp",
+        "fermentación": "/fotos/of_fermentativo.webp",
+        "Asacarolítico": "/fotos/of_asacarolíticos.webp"
       }
     },
    {
@@ -676,8 +676,8 @@
         "Negativo: Permanece verde o vira a azul por uso de peptonas."
       ],
       "imagenes": {
-        "Utiliza el Carbohidrato": "/fotos/of_carbohidratospositivo.png",
-        "no utiliza el carbohidrato": "/fotos/of_carbohidratosnegativo.png"
+        "Utiliza el Carbohidrato": "/fotos/of_carbohidratospositivo.webp",
+        "no utiliza el carbohidrato": "/fotos/of_carbohidratosnegativo.webp"
       }
     },
     {
@@ -691,10 +691,10 @@
         "Negativo: Permanece rojo o cambia a fucsia (alcalino por uso de peptonas)."
       ],
       "imagenes": {
-        "ejemplo":"/fotos/rojodefenol_ejemplo.png",
-        "sin_inocular": "/fotos/rojodefenol_base.png",
-        "positivo": "/fotos/rojodefenol_positivo.png",
-        "negativo": "/fotos/rojodefenol_negativo.png"        
+        "ejemplo":"/fotos/rojodefenol_ejemplo.webp",
+        "sin_inocular": "/fotos/rojodefenol_base.webp",
+        "positivo": "/fotos/rojodefenol_positivo.webp",
+        "negativo": "/fotos/rojodefenol_negativo.webp"        
       }
     },
     {
@@ -708,9 +708,9 @@
         "Negativo: Color púrpura (pH 6.8)."
       ],
       "imagenes": {
-        "sin_inocular": "/fotos/purpura_base.png",
-        "positivo_amarillo": "/fotos/purpura_positivo.png",
-        "negativo_purpura": "/fotos/purpura_negativo.png"
+        "sin_inocular": "/fotos/purpura_base.webp",
+        "positivo_amarillo": "/fotos/purpura_positivo.webp",
+        "negativo_purpura": "/fotos/purpura_negativo.webp"
       }
     },
     {
@@ -724,10 +724,10 @@
         "Negativo: Vire a Rojo o Rosado por utilización de peptonas."
       ],
       "imagenes": {
-        "sin_inocular": "/fotos/cta_base.png",
-        "positivo": "/fotos/cta_positivo.png",
-        "negativo": "/fotos/cta_negativo.png",
-        "ejemplo":"/fotos/cta_ejemplo.png"
+        "sin_inocular": "/fotos/cta_base.webp",
+        "positivo": "/fotos/cta_positivo.webp",
+        "negativo": "/fotos/cta_negativo.webp",
+        "ejemplo":"/fotos/cta_ejemplo.webp"
       }
     },
     {
@@ -741,9 +741,9 @@
         "Negativo: Crecimiento confinado estrictamente a la línea de picadura."
       ],
       "imagenes": {
-        "sin_inocular": "/fotos/movilidad_base.png",
-        "positiva": "/fotos/movilidad_positivo.png",
-        "negativa": "/fotos/movilidad_negativo.png"
+        "sin_inocular": "/fotos/movilidad_base.webp",
+        "positiva": "/fotos/movilidad_positivo.webp",
+        "negativa": "/fotos/movilidad_negativo.webp"
       }
     },
     {
@@ -757,9 +757,9 @@
         "Negativo: El plasma permanece líquido o suspensión homogénea."
       ],
       "imagenes": {
-        "ejemplo":"/fotos/coagulasa_ejemplo.png",
-        "positiva": "/fotos/coagulasa_positivo.png",
-        "negativa": "/fotos/coagulasa_negativo.png"
+        "ejemplo":"/fotos/coagulasa_ejemplo.webp",
+        "positiva": "/fotos/coagulasa_positivo.webp",
+        "negativa": "/fotos/coagulasa_negativo.webp"
       }
     },
     {
@@ -773,8 +773,8 @@
         "Resistente: Halo <16 mm."
       ],
       "imagenes": {
-        "sensible": "/fotos/novobiocina_sensible.png",
-        "resistente": "/fotos/novobiocina_resistente.png"
+        "sensible": "/fotos/novobiocina_sensible.webp",
+        "resistente": "/fotos/novobiocina_resistente.webp"
       }
     },
     {
@@ -788,7 +788,7 @@
         "Resistente: Crecimiento hasta el borde del disco."
       ],
       "imagenes": {
-        "Resistente y Sensible": "/fotos/polimixinaB.png"
+        "Resistente y Sensible": "/fotos/polimixinaB.webp"
       }
     },
     {
@@ -802,7 +802,7 @@
         "Resistente: Crecimiento confluente hasta el disco."
       ],
       "imagenes": {
-        "Resistente y Sensible": "/fotos/bacitracina.png"
+        "Resistente y Sensible": "/fotos/bacitracina.webp"
       }
     },
     {
@@ -816,8 +816,8 @@
         "Resistente: Halo <14 o 16 mm, en disco de 6 y 10 mm, respectivamente."
       ],
       "imagenes": {
-        "Sensible":"/fotos/optoquina_sensible.png",
-        "Resistente y Sensible": "/fotos/optoquina.png"
+        "Sensible":"/fotos/optoquina_sensible.webp",
+        "Resistente y Sensible": "/fotos/optoquina.webp"
       }
     },
     {
@@ -831,9 +831,9 @@
         "Negativo: Permanece color amarillo-salmón."
       ],
       "imagenes": {
-        "sin_inocular": "/fotos/ureac_base.png",
-        "positiva": "/fotos/ureac_positivo.png",
-        "negativa": "/fotos/ureac_negativo.png"
+        "sin_inocular": "/fotos/ureac_base.webp",
+        "positiva": "/fotos/ureac_positivo.webp",
+        "negativa": "/fotos/ureac_negativo.webp"
       }
     },
     {
@@ -847,9 +847,9 @@
         "Negativo: Color amarillo o naranja."
       ],
       "imagenes": {
-        "sin_inocular": "/fotos/ureas_base.png",
-        "positiva": "/fotos/ureas_positivo.png",
-        "negativa": "/fotos/ureas_negativo.png"
+        "sin_inocular": "/fotos/ureas_base.webp",
+        "positiva": "/fotos/ureas_positivo.webp",
+        "negativa": "/fotos/ureas_negativo.webp"
       }
     },
     {
@@ -863,9 +863,9 @@
         "Negativo: Sin crecimiento o colonias sin pigmento negro."
       ],
       "imagenes": {
-        "sin_inocular": "/fotos/telurito_base.png",
-        "positivo": "/fotos/telurito_positivo.png",
-        "Positivo en tubo":"/fotos/telurito_positivo_tubo.png"
+        "sin_inocular": "/fotos/telurito_base.webp",
+        "positivo": "/fotos/telurito_positivo.webp",
+        "Positivo en tubo":"/fotos/telurito_positivo_tubo.webp"
       }
     },
     {
@@ -879,9 +879,9 @@
         "Negativo: Permanece del color original o vira a alcalino."
       ],
       "imagenes": {
-        "sin_inocular": "/fotos/arabinosa_base.png",
-        "positivo": "/fotos/arabinosa_positivo.png",
-        "negativo": "/fotos/arabinosa_negativo.png"
+        "sin_inocular": "/fotos/arabinosa_base.webp",
+        "positivo": "/fotos/arabinosa_positivo.webp",
+        "negativo": "/fotos/arabinosa_negativo.webp"
       }
     },
     {
@@ -895,9 +895,9 @@
         "Negativo: Ausencia de ennegrecimiento o ennegrecimiento menor a la mitad."
       ],
       "imagenes": {
-        "sin_inocular": "/fotos/esculina_base.png",
-        "positivo": "/fotos/esculina_positivo.png",
-        "Positivo_en_tubo":"/fotos/esculina_positivo_tubo.png"        
+        "sin_inocular": "/fotos/esculina_base.webp",
+        "positivo": "/fotos/esculina_positivo.webp",
+        "Positivo_en_tubo":"/fotos/esculina_positivo_tubo.webp"        
       }
     },
     {
@@ -913,10 +913,10 @@
         "Negativo: Ausencia de sinergia hemolítica."
       ],
       "imagenes": {
-        "<em>S. agalactiae</em>": "/fotos/camp_sagalactiae.png",
-        "<em>S. agalactiae</em>_POSITIVO Y NEGATIVO": "/fotos/camp_agalactiae.png",        
-        "<em>L. ivanovii</em>": "/fotos/camp_ivanovii.png",
-        "<em>L. monocytogenes</em>": "/fotos/camp_monocytogenes.png"
+        "<em>S. agalactiae</em>": "/fotos/camp_sagalactiae.webp",
+        "<em>S. agalactiae</em>_POSITIVO Y NEGATIVO": "/fotos/camp_agalactiae.webp",        
+        "<em>L. ivanovii</em>": "/fotos/camp_ivanovii.webp",
+        "<em>L. monocytogenes</em>": "/fotos/camp_monocytogenes.webp"
       }
     },
     {
@@ -930,9 +930,9 @@
         "Negativo: Incoloro/ligeramente amarillo."
       ],
       "imagenes": {
-        "prueba_microtubo":"/fotos/hipurato_microtubo.png",
-        "positivo": "/fotos/hipurato_positivo.png",
-        "negativo": "/fotos/hipurato_negativo.png"        
+        "prueba_microtubo":"/fotos/hipurato_microtubo.webp",
+        "positivo": "/fotos/hipurato_positivo.webp",
+        "negativo": "/fotos/hipurato_negativo.webp"        
       }
     },
     {
@@ -949,8 +949,8 @@
         "Burbujas o rotura del agar: Producción de gas."
       ],
       "imagenes": {
-        "ejemplo":"fotos/tsi_ejemplo.png",
-        "resultados posibles teóricos": "/fotos/tsi.png"
+        "ejemplo":"fotos/tsi_ejemplo.webp",
+        "resultados posibles teóricos": "/fotos/tsi.webp"
       }
     },
     {
@@ -967,8 +967,8 @@
         "Burbujas o rotura del agar: Producción de gas."
       ],
       "imagenes": {
-        "ejemplo":"fotos/kia_ejemplo.png",
-        "resultados posibles teóricos": "/fotos/kia.png"                        
+        "ejemplo":"fotos/kia_ejemplo.webp",
+        "resultados posibles teóricos": "/fotos/kia.webp"                        
       }
     },
     {
@@ -984,8 +984,8 @@
         "Ennegrecimiento: Producción de H2S."
       ],
       "imagenes": {
-        "ejemplo":"/fotos/lia.png",
-        "resultados posibles": "/fotos/lia_teorico.png"
+        "ejemplo":"/fotos/lia.webp",
+        "resultados posibles": "/fotos/lia_teorico.webp"
       }
     },
     {
@@ -999,8 +999,8 @@
         "VP Positivo: Anillo o superficie rojo rosado/carmín. Negativo: Amarillo/cobre."
       ],
       "imagenes": {
-        "Vogues-Proskauer": "/fotos/vp.png",
-        "Rojo de Metilo": "/fotos/rojometilo.png"
+        "Vogues-Proskauer": "/fotos/vp.webp",
+        "Rojo de Metilo": "/fotos/rojometilo.webp"
       }
     },
     {
@@ -1015,9 +1015,9 @@
         "Negativo: Se vuelve rojo SOLAMENTE después de añadir zinc (el Zinc redujo el nitrato residual)."
       ],
       "imagenes": {
-        "ejemplo":"/fotos/nitratos_ejemplo.png",
-        "Sin Campana": "/fotos/nitratossdurham.png",
-        "Con Campana": "/fotos/nitratosdurham.png"        
+        "ejemplo":"/fotos/nitratos_ejemplo.webp",
+        "Sin Campana": "/fotos/nitratossdurham.webp",
+        "Con Campana": "/fotos/nitratosdurham.webp"        
       }
     },
     {
@@ -1031,7 +1031,7 @@
         "Fotocromogenicidad Positiva: Colonias viran a amarillo/naranja tras exposición a la luz (e.g. <em>M. kansasii</em>)."
       ],
       "imagenes": {
-        "Niacina": "/fotos/niacina.png"
+        "Niacina": "/fotos/niacina.webp"
       }
     },
     {
@@ -1046,9 +1046,9 @@
         "Indol (+): Anillo rojo tras añadir reactivo de Kovacs."
       ],
       "imagenes": {
-        "ejemplo":"/fotos/mio_ejemplo.png",
-        "Indol, Movilidad, Ornitina Positivos": "/fotos/mio_positivo.png",
-        "Indol y Movilidad Negativos, Ornitina Positivo": "/fotos/mio_negativo.png"        
+        "ejemplo":"/fotos/mio_ejemplo.webp",
+        "Indol, Movilidad, Ornitina Positivos": "/fotos/mio_positivo.webp",
+        "Indol y Movilidad Negativos, Ornitina Positivo": "/fotos/mio_negativo.webp"        
       }
     },
     {
@@ -1062,9 +1062,9 @@
         "Negativo: Sin crecimiento y medio verde."
       ],
       "imagenes": {
-        "Positivo": "/fotos/citrato_positivo.png",
-        "negativo": "/fotos/citrato_negativo.png",
-        "ejemplo":"/fotos/citrato_ejemplo.png"
+        "Positivo": "/fotos/citrato_positivo.webp",
+        "negativo": "/fotos/citrato_negativo.webp",
+        "ejemplo":"/fotos/citrato_ejemplo.webp"
       }
     },
     {
@@ -1078,8 +1078,8 @@
         "Negativo: Permanece amarillo (color del reactivo férrico)."
       ],
       "imagenes": {
-        "positivo": "/fotos/fenilalanina_positivo.png",
-        "negativo": "/fotos/fenilalanina_negativo.png"
+        "positivo": "/fotos/fenilalanina_positivo.webp",
+        "negativo": "/fotos/fenilalanina_negativo.webp"
       }
     },
     {
@@ -1093,8 +1093,8 @@
         "Negativo: Color amarillo (No descarboxiló)."
       ],
       "imagenes": {
-        "Sin Inocular, Positivo y Negativo": "/fotos/moeller.png",
-        "ejemplo":"/fotos/moeller_ejemplo.png"
+        "Sin Inocular, Positivo y Negativo": "/fotos/moeller.webp",
+        "ejemplo":"/fotos/moeller_ejemplo.webp"
       }
     },
     {
@@ -1108,7 +1108,7 @@
         "Negativo: El medio se solidifica en frío."
       ],
       "imagenes": {
-        "Positivo y negativo": "/fotos/licuefaccion_gelatina.png"
+        "Positivo y negativo": "/fotos/licuefaccion_gelatina.webp"
       }
     },
     {
@@ -1122,9 +1122,9 @@
         "Resistente: Crecimiento hasta el disco."
       ],
       "imagenes": {
-        "sensible": "/fotos/vibriostatico_sensible.png",
-        "resistente": "/fotos/vibriostatico_resistente.png",
-        "ejemplo":"/fotos/vibriostatico_ejemplo.png"
+        "sensible": "/fotos/vibriostatico_sensible.webp",
+        "resistente": "/fotos/vibriostatico_resistente.webp",
+        "ejemplo":"/fotos/vibriostatico_ejemplo.webp"
       }
     },
     {
@@ -1140,7 +1140,7 @@
         "Ennegrecimiento: Producción de H2S."
       ],
       "imagenes": {
-        "resultados posibles": "/fotos/sim.png"
+        "resultados posibles": "/fotos/sim.webp"
       }
     },
     {
@@ -1156,8 +1156,8 @@
         "Peptonización: Medio translúcido/acuoso y parduzco (destrucción de las proteínas de la leche)"
       ],
       "imagenes": {
-        "Alcalinización Positiva": "/fotos/lechetornasolada_positivo.png",
-        "Medio Sin Inocular":"/fotos/lechetornasolada_base.png"
+        "Alcalinización Positiva": "/fotos/lechetornasolada_positivo.webp",
+        "Medio Sin Inocular":"/fotos/lechetornasolada_base.webp"
       }
     },
     {
@@ -1171,9 +1171,9 @@
         "Requerimiento de Factor V: Crecimiento de colonias exclusivamente alredeor de la estría de <em>S. aureus</em> en TSA."
       ],
       "imagenes": {
-        "Gelosa Sangre": "/fotos/satelitismo_sangre.png",
-        "TSA": "/fotos/satelitismo_tsa_disco.png",
-        "TSA sin disco":"/fotos/satelitismo_tsa.png"
+        "Gelosa Sangre": "/fotos/satelitismo_sangre.webp",
+        "TSA": "/fotos/satelitismo_tsa_disco.webp",
+        "TSA sin disco":"/fotos/satelitismo_tsa.webp"
       }
     },
     {
@@ -1187,8 +1187,8 @@
         "Negativo: Sin fluorescencia roja (requiere factor X exógeno)."
       ],
       "imagenes": {
-        "Positivo y negativo": "/fotos/porfirina.png",
-        "Positivo y negativo 2": "/fotos/porfirina_alterno.png"
+        "Positivo y negativo": "/fotos/porfirina.webp",
+        "Positivo y negativo 2": "/fotos/porfirina_alterno.webp"
       }
     },
     {
@@ -1202,9 +1202,9 @@
         "Negativo o débil: Burbujeo lento o nulo."
       ],
       "imagenes": {
-        "ejemplo en tubo":"/fotos/superoxol_ejemplo.png",
-        "positivo": "/fotos/superoxol_positivo.png",
-        "negativo": "/fotos/superoxol_negativo.png"        
+        "ejemplo en tubo":"/fotos/superoxol_ejemplo.webp",
+        "positivo": "/fotos/superoxol_positivo.webp",
+        "negativo": "/fotos/superoxol_negativo.webp"        
       }
     },
     {
@@ -1218,8 +1218,8 @@
         "Lipasa (+):  Capa iridiscente (como aceite en agua) o brillo perlado sobre la superficie de la colonia y el agar circundante."
       ],
       "imagenes": {
-        "Sin_inocular": "/fotos/ey_base.png",
-        "Positivo": "/fotos/lecitinasa_lipasa.png"
+        "Sin_inocular": "/fotos/ey_base.webp",
+        "Positivo": "/fotos/lecitinasa_lipasa.webp"
       }
     },
     {
@@ -1232,11 +1232,11 @@
         "Tormenta de Nieve: Coágulo tormentoso (acidificación intensa + gas que rompe el coágulo) y algunas veces ennegrecimiento por H2S."
       ],
       "imagenes": {
-        "sin_inocular": "/fotos/lechefierro_base.png",
-        "\"Tormenta de Nieve\"": "/fotos/lechefierro_positivo.png",
-        "Digestión de la Leche":"/fotos/lechefierro_digestion.png",
-        "Formación de Coagulo":"/fotos/lechefierro_coagulo.png",
-        "resultados posibles":"/fotos/lechefierro_resultados.png"
+        "sin_inocular": "/fotos/lechefierro_base.webp",
+        "\"Tormenta de Nieve\"": "/fotos/lechefierro_positivo.webp",
+        "Digestión de la Leche":"/fotos/lechefierro_digestion.webp",
+        "Formación de Coagulo":"/fotos/lechefierro_coagulo.webp",
+        "resultados posibles":"/fotos/lechefierro_resultados.webp"
       }
     },
     {
@@ -1249,10 +1249,10 @@
         "Se evalúa crecimiento (resistente) o falta de crecimiento (sensible) y se compara con tablas estándar (e.g. <em>B. abortus</em> no crece en tionina pero sí en fucsina; <em>B. suis</em> crece en tionina pero no en fucsina)."
       ],
       "imagenes": {
-        "tionina_positivo":"/fotos/tionina_ejemplo.png",
-        "fucsina_positivo":"/fotos/fucsina_ejemplo.png",
-        "sin_inocular_fucsina": "/fotos/brucella_fucsina.png",
-        "sin_inocular_tionina": "/fotos/brucella_tionina.png"        
+        "tionina_positivo":"/fotos/tionina_ejemplo.webp",
+        "fucsina_positivo":"/fotos/fucsina_ejemplo.webp",
+        "sin_inocular_fucsina": "/fotos/brucella_fucsina.webp",
+        "sin_inocular_tionina": "/fotos/brucella_tionina.webp"        
       }
     }
   ],

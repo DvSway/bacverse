@@ -174,12 +174,12 @@ function App() {
             </div>
           </div>
 
-          <main className="grid-tarjetas">
+          <main key={categoriaActiva} className="grid-tarjetas fade-suave">
             {listaFiltrada.length > 0 ? (
               listaFiltrada.map((item, index) => (
                 <div key={index} className="tarjeta">
                   <div className="tarjeta-imagen-placeholder">
-                    {item.imagenes ? <img src={Object.values(item.imagenes)[0]} alt={item.nombre} className="img-miniatura" /> : <span>📷 Foto aquí</span>}
+                    {item.imagenes ? <img src={Object.values(item.imagenes)[0]} alt={item.nombre} className="img-miniatura" loading="lazy" /> : <span>📷 Foto aquí</span>}
                   </div>
                   <div className="tarjeta-contenido">
                     <h2 style={{ color: '#a086d2', marginBottom: '10px' }}>{item.nombre}</h2>
@@ -208,7 +208,7 @@ function App() {
 
       {/* VISTA 2: IDENTIFICADOR PRESUNTIVO */}
       {vistaActiva === 'identificador' && (
-        <div className="identificador-container">
+        <div key={categoriaActiva} className="identificador-container fade-suave">
           <div className="tabs-identificador">
             <button className={modoIdentificador === 'por_pruebas' ? 'tab-activa' : ''} onClick={() => setModoIdentificador('por_pruebas')}>
               Encontrar Bacteria
@@ -220,7 +220,7 @@ function App() {
 
           {/* MODO 1: METES PRUEBAS */}
           {modoIdentificador === 'por_pruebas' && (
-            <div className="panel-identificador">
+            <div key={modoIdentificador} className="panel-identificador fade-suave">
               
               <div className="formulario-pruebas">
                 <div style={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
@@ -275,7 +275,7 @@ function App() {
 
           {/* MODO 2: METES BACTERIA */}
           {modoIdentificador === 'por_bacteria' && (
-            <div className="panel-identificador" style={{ gridTemplateColumns: '1fr' }}>
+            <div key={modoIdentificador} className="panel-identificador fade-suave" style={{ gridTemplateColumns: '1fr' }}>
               <input type="text" placeholder="Escribe el nombre de la bacteria (e.g. Streptococcus)"
                 value={bacteriaBuscada} onChange={(e) => setBacteriaBuscada(e.target.value)} className="barra-busqueda" style={{ marginBottom: '2rem' }} />
               
@@ -339,7 +339,7 @@ function App() {
               }}>
                 {Object.entries(itemSeleccionado.imagenes).map(([tituloImagen, url], idx) => (
                   <div key={idx} style={{ flex: '1 1 200px', maxWidth: '250px', textAlign: 'center' }}>
-                    <img src={url} alt={tituloImagen} style={{ width: '100%', height: '200px', objectFit: 'contain', borderRadius: '8px', border: '1px solid var(--borde)', boxShadow: '0 4px 6px rgba(0,0,0,0.3)' }} />
+                    <img src={url} alt={tituloImagen} style={{ width: '100%', height: '200px', objectFit: 'contain', borderRadius: '8px', border: '1px solid var(--borde)', boxShadow: '0 4px 6px rgba(0,0,0,0.3)' }} loading="lazy" />
                    {/* ETIQUETA DE LA IMAGEN CON DECISIÓN INTELIGENTE */}
                     <p 
                       style={{ 
