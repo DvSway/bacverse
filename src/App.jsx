@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import db from './db.json'
 import './App.css'
+import { Analytics } from '@vercel/analytics/react';
 
 // LA MEGA-LISTA DE PRUEBAS AGRUPADAS
 const categoriasPruebas = {
@@ -139,6 +140,7 @@ function App() {
         <h1>Bacteriología Virtual 🔬</h1>
         <p>Cátalogo de Medios, Pruebas Bioquímicas e Identificación de Bacterias</p>
       </header>
+      <Analytics />
 
       <nav className="menu-principal">
         <button className={vistaActiva === 'catalogo' && categoriaActiva === 'medios' ? 'btn-activo' : ''} 
